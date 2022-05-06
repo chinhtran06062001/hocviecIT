@@ -232,6 +232,7 @@ Mô hình OSI và TCP/IP có một số điểm chung như sau:
 |Thiết kế|Phát triển mô hình trước sau đó sẽ phát triển giao thức|Các giao thức được thiết kế trước sau đó phát triển mô hình|
 |Số lớp (Tầng)|7|4|
 |Truyền thông|Hỗ trợ cả kết nối định tuyến và không dây|Hỗ trợ truyền thông không kết nối từ tầng mạng|
+|Tính phát triển|Các giao thức của mô hình OSI được ẩn và có thể dễ dàng thay thế khi công việc thay đổi|Giao thức không dễ dàng thay thế được|
 |Tính phụ thuộc|Xác định các dịch vụ, giao thức và giao diện cũng như cung cấp sự phân biệt phù hợp giữa chúng. Nó là giao thức độc lập|Các dịch vụ, giao thức và giao diện không được phân tách đúng cách. Nó phụ thuộc vào giao thức|
                                                                             # Tài Liệu Tham Khảo
                                                                             
