@@ -119,8 +119,109 @@ cấp giao thức truyền tải cũng đáng tin cậy và hiệu quả hơn.
         
 <a name = "dns"> </a>
 
+II. Giao thức DNS
+
+1. Giao thức DNS là gì?
+
+![image](https://user-images.githubusercontent.com/97047640/167128549-d26d0c0f-85c4-4ec1-aaa1-53850d6c4622.png)
 
 
+DNS viết tắt của Domain Name System có nghĩa là hệ thống phân giải tên miền. DNS là hệ thống cho phép thiết lập tương ứng giữa địa chỉ IP và tên miền trên Internet.
+
+Được phát minh vào năm 1984 cho Internet và đây là một trong số các chuẩn công nghiệp của các cổng bao gồm cả TCP/IP. Hệ thống phân giải tên miền chính là chìa khóa chủ chốt của nhiều dịch vụ mạng hiện nay như Internet, Mail server, Web server…
+
+2. DNS dùng để làm gì ?
+
+Mỗi máy tính khi kết nối vào Internet sẽ được gán cho 1 địa chỉ IP (Ví dụ: 1414.1158.62462) riêng biệt và không trùng lẫn với bất kỳ máy tính nào khác trên thế giới. Cũng giống như vậy đối với website cũng có địa chỉ IP riêng biệt của website đó.
+
+    Ví dụ địa chỉ IP là 103.200.21.192 dẫn đến website Vietnix thay vì gõ vietnix.vn trên thanh tìm kiếm. 
+    Lúc này là lúc DNS “trổ tài chuyển đổi” (ánh xạ) dãy số địa chỉ IP thành những ký tự thân thiện hơn. 
+    Chính vì nhờ có giao thức DNS nên bạn không cần phải nhớ địa chỉ IP để vào website Vietnix mà chỉ cần nhớ vietnix.vn là được.
+    
+Nói cách khác, DNS cũng giống như một danh bạ điện thoại dành riêng cho Internet. Nếu bạn biết tên của một người nhưng không biết số điện thoại hay ngược lại, bạn có thể tham khảo trong sổ danh bạ dễ dàng.
+
+3. Cách thức hoạt động.
+   Quá trình phân giải DNS bao gồm chuyển đổi tên máy chủ (chẳng hạn như www.example.com) thành địa chỉ IP thân thiện với máy tính (chẳng hạn như 192.168.1.1). Một địa chỉ IP được cung cấp cho mỗi thiết bị trên Internet và địa chỉ đó là cần thiết để tìm thiết bị Internet phù hợp. Giống như một địa chỉ đường phố được sử dụng để tìm một ngôi nhà cụ thể.
+
+Khi người dùng muốn tải một trang web, một bản dịch phải xảy ra giữa những gì người dùng nhập vào trình duyệt web của họ (example.com) và địa chỉ thân thiện với máy cần thiết để định vị trang web example.com.
+
+Để hiểu quy trình đằng sau quá trình phân giải DNS, điều quan trọng là phải tìm hiểu về các thành phần khác nhau mà một truy vấn DNS phải vượt qua. Đối với trình duyệt web, việc tra cứu DNS diễn ra ở chế độ ẩn. Và không yêu cầu sự tương tác từ máy tính của người dùng ngoài yêu cầu ban đầu.
+
+4.  Các loại DNS bản ghi DNS thường sử dụng
+
+- CNAME Record: Là một bản ghi tên quy chuẩn (Canonical Name Record). Đây là một dạng bản ghi tài nguyên trong hệ thống tên miền.
+
+- A Record: Dùng để trỏ tên miền website tới một địa chỉ IP cụ thể. Đây được xem là bản ghi DNS đơn giản nhất.
+
+- MX Record: Bản ghi này bạn có thể sử dụng để trỏ tên miền đến mail server. MX Record chỉ định server nào quản lý các dịch vụ Email của tên miền đó.
+
+- AAAA Record: Dùng để trỏ tên miền đến địa chỉ IPv6 và cho phép thêm host mới, TTL và IPv6.
+
+- TXT Record: Ngoài ra, có thể thêm giá trị TXT, Host mới, TTL và Point To để chứa các thông tin định dạng văn bản domain.
+
+- SRV Record: Đây là bản ghi DNS đặc biệt, dùng để xác định chính xác dịch vụ nào đang chạy Port nào. Và thông qua bản ghi này bạn có thể thêm Priority, Port, Weight, TTL, Point to.
+
+- NS Record: Bản ghi này có thể chỉ định Name Server cho từng tên miền phụ và bên cạnh đó có thể tạo tên Name Server, TTL hay host mới.
+
+
+5. Các loại DNS Server
+
+DNS Server gồm hai loại là Root Name Server và Local Name Server. 
+
+5.1. Root Name Server
+
+Root Name Server là một dịch vụ phân giải tên miền gốc và trên thế giới có khoảng 12 DNS root Server.
+
+DNS root Server quản lý tất cả các tên miền Top-level. Khi có yêu cầu phân giải một Domain Name thành một địa chỉ IP, client sẽ gửi yêu cầu đến DNS gần nhất (DNS ISP). DNS ISP sẽ kết nối tới DNS root Server để hỏi địa chỉ của Domain Name.
+
+DNS root Server sẽ căn cứ và dựa vào các Top Level của tên miền và từ đó có những tài liệu hướng dẫn phù hợp để chuyển hướng cho khách hàng đến đúng địa chỉ cần truy vấn.
+
+5.2. Local Name Server
+
+DNS Server này dùng để chứa thông tin để truy xuất và tìm kiếm máy chủ tên miền. Và thường được duy trì và phát triển bởi các doanh nghiệp hay các nhà cung cấp dịch vụ Internet.
+
+6. Cách sử dụng DNS
+
+Nếu bạn sử dụng DNS của nhà cung cấp mạng thì bạn sẽ không cần điền địa chỉ DNS. Nhưng nếu trường hợp bạn sử dụng DNS khác, thì bạn phải điền địa chỉ cụ thể của máy chủ đó để thay đổi DNS Server :
+
+Bước 1 : Nhấn vào Start Menu > Gõ Control Panel > Chọn Control Panel
+
+Bước 2 : Truy cập vào View network status and task
+
+Bước 3 : Truy cập vào mạng Internet
+
+Bước 4 : Vào phần properties để bắt đầu thay đổi DNS máy tính
+
+Bước 5 : Nhấp vào Internet Protocol Vesion 4 > Chọn Use the following DNS server addresses > Đổi DNS > OK
+
+7. Các loại truy vấn DNS 
+
+- Recursive query: DNS client yêu cầu máy chủ DNS (thường là recursive DNS resolver). Sẽ trả lời máy khách bằng bản ghi tài nguyên được yêu cầu. Hoặc thông báo lỗi nếu resolver không thể tìm thấy bản ghi.
+
+- Iterative query: Trong tình huống này, DNS client sẽ cho phép máy chủ DNS trả về câu trả lời tốt nhất có thể. Nếu máy chủ DNS được truy vấn không có kết quả trùng khớp với tên truy vấn. Nó sẽ trả về một giới thiệu đến máy chủ DNS có thẩm quyền cho mức thấp hơn. DNS client sau đó sẽ thực hiện một truy vấn đến địa chỉ được giới thiệu. Quá trình này tiếp tục với các máy chủ DNS bổ sung trong chuỗi truy vấn cho đến khi xảy ra lỗi hoặc hết thời gian.
+
+- Non-recursive query: Thông thường điều này sẽ xảy ra khi DNS resolver client truy vấn máy chủ DNS một record mà server có quyền truy cập hoặc bản ghi tồn tại bên trong bộ đệm của server. Thông thường, một máy chủ DNS sẽ lưu các bản ghi DNS để ngăn chặn việc tiêu thụ thêm băng thông và giảm tải cho các máy chủ DNS khác.
+
+8. Cách DNS Server giải quyết một DNS query ?
+
+Điển hình, trong một DNS query mà không có caching, có bốn server hoạt động cùng nhau để  cung cấp địa chỉ IP cho client : Recursive Resolvers, Root Namesevers, TLD Nameserver, và Authoriative Nameserver
+
+DNS recursor (DNS resolver) là một máy chủ nhận truy vấn từ DNS Client, sau đó tương tác với các DNS server khác để truy tìm Ip chính xác. Khi resolver nhận được yêu cầu từ Client, Resolver sau đó thực sự hoạt động như một Client, truy vấn ba loại DNS Server khác đẻ tìm kiếm đúng IP.
+
+* DNS Lookup
+
+Đầu tiên, resolver truy vấn root nameservers. Root-server là bước đầu tiên trong việc phân giải các tên miền có thể đọc được thành địa chỉ IP. Sau đó, root server sẽ phản hồi lại resolver bằng địa chỉ của Top Level Domain (TLD) DNS server (chẳng hạn như .com hoặc .net) lưu trữ thông tin cho các miền của nó.
+
+Tiếp theo, resolver truy vấn TLD server. TLD server phản hồi bằng địa chỉ IP Authoritative Nameserver của tên miền. Sau đó, recursor sẽ truy vấn authoritative nameserver. Sau đó máy chủ này sẽ respond bằng địa chỉ IP của origin server.
+
+Resolver cuối cùng sẽ chuyển địa chỉ IP của origin server trở lại client. Sử dụng địa chỉ IP này, client sau đó có thể bắt đầu truy vấn trực tiếp đến origin server. Và origin server sẽ phản hồi bằng cách gửi dữ liệu trang web cho trình duyệt web để hiển thị.
+
+* DNS Caching
+Ngoài quy trình được nêu ở trên, recursive resolver cũng có thể giải quyết các truy vấn DNS. Bằng cách sử dụng dữ liệu được lưu trong bộ nhớ cache. Sau khi truy xuất địa chỉ IP chính xác cho một trang web nhất định. Resolver sẽ lưu trữ thông tin đó trong bộ nhớ cache của nó trong một khoảng thời gian giới hạn. Trong khoảng thời gian này, nếu bất kỳ máy khách nào khác gửi yêu cầu cho tên miền đó, resolver có thể bỏ qua quy trình tra cứu DNS thông thường và chỉ cần trả lời client bằng địa chỉ IP được lưu trong bộ nhớ cache.
+
+Khi thời gian lưu vào bộ nhớ đệm hết hạn, resolver phải truy xuất lại địa chỉ IP, tạo entry mới trong bộ nhớ cache của nó. Giới hạn thời gian này, được gọi là thời gian tồn tại (TTL) được đặt trong DNS Record cho mỗi trang web. Thông thường, thì TTL nằm trong khoảng 24-48 giờ. TTL là cần thiết vì máy chủ web đôi khi thay đổi địa chỉ IP của chúng. Do đó, các resolver không thể phân phát cùng một IP từ bộ nhớ cache vô thời hạn.
+
+    
 <a name = "ftp"> </a>
 
 <a name = "ssh"> </a>
