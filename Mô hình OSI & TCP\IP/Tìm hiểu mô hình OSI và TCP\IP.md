@@ -221,13 +221,18 @@ Mô hình OSI và TCP/IP có một số điểm chung như sau:
 
 |Nội Dung|Mô Hình OSI|Mô Hình TCP\IP|
 |---------|---------|----------|
+|Tên viết tắt|Nó là tên viết tắt của Open System Interconnection|Viết tắt của Transmission Control Protocol|
+|Nhà phát triển|Được phát triển bởi ISO(Tố chức Tiêu chuẩn Quốc tế)|Được phát triển bởi ARPANET(Mạng lưới Cơ quan Dự án Nghiên cứu Nâng cao)|
+|Khái niệm|Là một tiêu chuẩn độc lập và giao thức chung được sử dụng như một cổng giao tiếp giữa mạng và người dùng cuối|Bao gồm các giao thức chuẩn dẫn đến sự phát triển của Internet.Nó là một giao thức truyền thông cung cấp kết nối giữa các máy chủ|
+|Chức năng|Lớp truyền tải cung cấp sự đảm bảo cho việc phân phối các gói tin|Lớp vận chuyển không cung cấp sự chắc chắn cho việc phân phối các gói tin. Tuy nhiên, có thể nói rằng nó là một mô hình đáng tin cậy|
+|Vai trò|là một mô hình tham chiếu mà qua đó các mạng khác nhau được xây dựng. Ví dụ, mô hình TCP/IP được xây dựng từ mô hình OSI - Nó cũng được coi là một công cụ hướng dẫn|Là một mô hình thực thi của một mô hình OSI|
 |Độ tin cậy và phổ biến|Nhiều người cho rằng đây là mô hình cũ, chỉ để tham khảo, số người sử dụng hạn chế hơn so với TCP/IP|Được chuẩn hóa, nhiều người tin cậy và sử dụng phổ biến trên toàn cầu|
 |Phương pháp tiếp cận|Tiếp cận theo chiều dọc|Tiếp cận theo chiều ngang|
 |Sự kết hợp giữa các tầng|Mỗi tầng khác nhau sẽ thực hiện một nhiệm vụ khác nhau, không có sự kết hợp giữa bất cứ tầng nào|Trong tầng ứng dụng có tầng trình diễn và tầng phiên được kết hợp với nhau|
 |Thiết kế|Phát triển mô hình trước sau đó sẽ phát triển giao thức|Các giao thức được thiết kế trước sau đó phát triển mô hình|
 |Số lớp (Tầng)|7|4|
 |Truyền thông|Hỗ trợ cả kết nối định tuyến và không dây|Hỗ trợ truyền thông không kết nối từ tầng mạng|
-|Tính phụ thuộc|Giao thức độc lập|Phụ thuộc vào giao thức|
+|Tính phụ thuộc|Xác định các dịch vụ, giao thức và giao diện cũng như cung cấp sự phân biệt phù hợp giữa chúng. Nó là giao thức độc lập|Các dịch vụ, giao thức và giao diện không được phân tách đúng cách. Nó phụ thuộc vào giao thức|
                                                                             # Tài Liệu Tham Khảo
                                                                             
                                     https://www.totolink.vn/article/149-mo-hinh-tcp-ip-la-gi-chuc-nang-cua-cac-tang-trong-mo-hinh-tcp-ip.html
