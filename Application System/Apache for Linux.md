@@ -61,7 +61,7 @@
 
 ![image](https://user-images.githubusercontent.com/97047640/168957776-ee84a24f-1778-41b1-a450-b5722458d57a.png)
 
-5.2 Tại đây, chúng ta cần sửa bằng cách nhập ``UserDir public_html``
+5.2 Tại đây, chúng ta cần sửa bằng cách nhập ``#UserDir public_html``
 
 ![image](https://user-images.githubusercontent.com/97047640/168958008-1a7ea1c8-8ae4-4c33-8f7f-d6e6ff35338c.png)
 
@@ -114,11 +114,12 @@ Dán nội dung sau vào
 
 ```
 <VirtualHost *:80>
-	ServerName www.tranchinh.com
-	ServerAlias tranchinh.com
-	DocumentRoot /home/hostvn.net/public_html
-	ErrorLog /home/tranchinh.com/logs/error_log
-	CustomLog /home/tranchinh.com/logs/access_log combined
+ServerAdmin chinhtran06062001@gmail.com
+ServerName chinhtran.vn
+ServerAlias www.chinhtran.vn
+DocumentRoot /home/chinhtran.vn/public_html
+ErrorLog logs/error
+CustomLog logs/access combined
 </VirtualHost>
 ```
 
