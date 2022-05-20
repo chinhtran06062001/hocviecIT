@@ -149,13 +149,14 @@ Dán nội dung sau vào
 	<title>TRANCHINH.COM - Hướng dẫn cài đặt Apache trên CentOS 7</title>
 </head>
 <body>
-	<p><center><?= "Hello World" ?></center></p>
+	<p><center> Hello World</center></p>
 </body>
 </html>
 ```
 
 Truy cập tên miền của bạn bằng trình duyệt để kiểm tra
     
+![image](https://user-images.githubusercontent.com/97047640/169435374-11726c5d-ac71-4395-af61-e736bd7bbdcd.png)
 
  
 
