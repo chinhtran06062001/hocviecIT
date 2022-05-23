@@ -122,10 +122,24 @@ Vào đường dẫn: C:\Windows\System32\drivers\etc, mở file hosts lên và 
 
 ![image](https://user-images.githubusercontent.com/97047640/169738275-3a8c60d4-dc87-47e2-bd0e-7684df0311e4.png)
 
-
-![image](https://user-images.githubusercontent.com/62273292/160043972-b70a311e-0fb0-4c33-946f-c90fca9b7038.png)
-
 ![image](https://user-images.githubusercontent.com/97047640/169738238-e507ef9c-8d40-4bb5-a58e-71516fcf5dc6.png)
+
+![image](https://user-images.githubusercontent.com/97047640/169743784-52ec52fc-57bc-42d7-87cb-fe681096f401.png)
+
+## ASP Classic
+
+![image](https://user-images.githubusercontent.com/97047640/169788699-a9286212-46e0-42a8-b4be-d5eeb5650a85.png)
+
+![image](https://user-images.githubusercontent.com/97047640/169788743-3cb86718-e74b-4b51-99d0-19b6c31344d2.png)
+
+
+## ASP.NET
+
+![image](https://user-images.githubusercontent.com/97047640/169788823-b708d6cb-aa3f-49ad-94af-b8689d5451e8.png)
+
+![image](https://user-images.githubusercontent.com/97047640/169788873-b17fc14c-9cee-4852-aad0-8b465ca994f6.png)
+
+## PHP
 
 
 
