@@ -141,6 +141,9 @@ Vào đường dẫn: C:\Windows\System32\drivers\etc, mở file hosts lên và 
 
 ## PHP
 
+![image](https://user-images.githubusercontent.com/97047640/169946271-bf8ecfae-f735-4789-98a5-c12015980b88.png)
+
+![image](https://user-images.githubusercontent.com/97047640/169946307-37fc9a06-ec2e-4a22-b16d-fe6cffa62572.png)
 
 
 
