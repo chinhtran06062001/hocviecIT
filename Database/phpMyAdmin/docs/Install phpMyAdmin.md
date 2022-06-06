@@ -54,7 +54,7 @@ Thay đổi đường dẫn truy cập trang đăng nhập
     ```
 - Thêm vào đường dẫn của bạn
     ```
-    Alias /danghai1996 /usr/share/phpMyAdmin 
+    Alias /chinhtran /usr/share/phpMyAdmin 
     ```
 
 - Lưu lại cấu hình vừa chỉnh sửa.
@@ -67,7 +67,7 @@ Thay đổi đường dẫn truy cập trang đăng nhập
 ### Bước 4: Xác minh phpMyAdmin đang hoạt động
 Truy cập theo địa chỉ
 ```
-<địa_chỉ_IP>/danghai1996
+chinhtran.com/phpmyadmin
 ```
 
 ![image](https://user-images.githubusercontent.com/97047640/172090227-f651fe46-e949-451e-8cd3-bc0f3349a382.png)
