@@ -70,8 +70,8 @@ Truy cập theo địa chỉ
 <địa_chỉ_IP>/danghai1996
 ```
 
-<img src="..\images\Screenshot_4.png">
+![image](https://user-images.githubusercontent.com/97047640/172090227-f651fe46-e949-451e-8cd3-bc0f3349a382.png)
 
 Từ đây, ta có thể đăng nhập vào phpMyAdmin bằng tài khoản của MariaDB/MySQL. Sau đó, ta sẽ thấy giao diện quản lí Database:
 
-<img src="..\images\Screenshot_5.png">
+![image](https://user-images.githubusercontent.com/97047640/172090267-e2be8a89-6bbb-49d6-a124-cc805755ff92.png)
