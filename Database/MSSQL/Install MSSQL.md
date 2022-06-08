@@ -54,38 +54,32 @@ Chèn dữ liệu vào trong bảng
 
 Nối 2 bảng lại với nhau với trường id
 
-![image](https://user-images.githubusercontent.com/62273292/161215839-06fe16ec-b75d-4829-936f-be9a3ace1b6a.png)
+![image](https://user-images.githubusercontent.com/97047640/172561013-2476a769-55fa-4356-a78b-7d1562c717a5.png)
 
 
-![image](https://user-images.githubusercontent.com/62273292/161216039-22008f75-bb2a-4ee3-962b-80308d66f494.png)
+![image](https://user-images.githubusercontent.com/97047640/172561307-f2aed51f-3b4b-48e9-af07-fb6ec7569330.png)
 
-![image](https://user-images.githubusercontent.com/62273292/161216068-5f535e02-90c8-4f6c-af25-56f423b8fe3b.png)
+![image](https://user-images.githubusercontent.com/97047640/172561388-85c4637c-6622-418f-99f8-230702ccaba1.png)
 
 Dùng lệnh select để xem dữ kiệu trong bảng
 
-![image](https://user-images.githubusercontent.com/62273292/161216562-fd0ac15e-911c-4099-8aee-9037d60d8bdc.png)
+![image](https://user-images.githubusercontent.com/97047640/172559038-ba96c7a6-fc11-4e80-98a0-1c2f3bdd0dd4.png)
 
 Dùng lệnh update để cập nhật dữ liệu trong bảng
 
-![image](https://user-images.githubusercontent.com/62273292/161217310-b141a5a2-22d0-431d-b340-a968def55725.png)
-
-Sau khi update thành công thì sẽ hiển thị xem đã update đúng chưa
-
-![image](https://user-images.githubusercontent.com/62273292/161217710-11b53c6e-27f9-411f-8014-3efc52381e48.png)
-
+![image](https://user-images.githubusercontent.com/97047640/172559456-79e48b39-8ee9-45fd-aa76-d7746682a59b.png)
 
 Lệnh delete: chúng ta có thể xóa dữ liệu,  xóa  database
 
-
-![image](https://user-images.githubusercontent.com/62273292/161218447-54a2a0d1-5d1f-46a9-a79f-650fd035ce3d.png)
-
-
-![image](https://user-images.githubusercontent.com/62273292/161218502-bc3ddcd1-0e9b-4518-ba27-f237a2a0a1ab.png)
+![image](https://user-images.githubusercontent.com/97047640/172560175-89b5341b-adc6-4546-878a-dd3983d1a5b1.png)
 
 
-![image](https://user-images.githubusercontent.com/62273292/161220943-af6f74bb-4b42-4e89-8e8a-7384c3b2e773.png)
+![image](https://user-images.githubusercontent.com/97047640/172560294-59fc78c9-4149-4b4e-96b1-6a66412f91ab.png)
 
-![image](https://user-images.githubusercontent.com/62273292/161221065-52c29556-3e8d-4ba9-9f93-8d0021fa7ca5.png)
+
+![image](https://user-images.githubusercontent.com/97047640/172560742-2bc7f135-7123-401e-9799-ddf4cfbb41ae.png)
+
+![image](https://user-images.githubusercontent.com/97047640/172560821-cf00bdc5-8dba-497e-a466-0bc53b1106cb.png)
 
 
 
