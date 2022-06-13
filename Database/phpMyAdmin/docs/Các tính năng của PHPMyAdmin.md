@@ -1,0 +1,135 @@
+# PHPMyAdmin là gì?
+
+PhpMyAdmin là phần mềm mã nguồn mở được viết bằng ngôn ngữ PHP giúp quản trị cở sở dữ liệu MySQL thông qua giao diện web. Tính đến nay, phpMyAdmin đã có đến hàng triệu lượt sử dụng và vẫn không ngừng tăng. Vậy tính năng hữu ích mà phpMyAdmin mang lại là gì?
+
+
+
+*phpMyAdmin được viết bằng ngôn ngữ PHP*
+
+
+## Các tính năng của phpMyAdmin là gì?
+
+![image](https://user-images.githubusercontent.com/62273292/160774929-f549f0eb-5649-4d5e-aa60-a152f3c76740.png)
+
+Một số tính năng chung thường được sử dụng trên phpMyAdmin:
+
+- Quản lý user(người dùng): thêm, xóa, sửa(phân quyền).
+
+- Quản lý cơ sở dữ liệu: tạo mới, xóa, sửa, thêm bảng, hàng, trường, tìm kiếm đối tượng.
+ 
+- Nhập xuất dữ liệu(Import/Export): hỗ trợ các định dạng SQL, XML và CSV.
+
+- Thực hiện các truy vấn MySQL, giám sát quá trình và theo dõi.
+
+- Sao lưu và khôi phục(Backup/Restore): Thao tác thủ công.
+
+Điểm yếu trong việc sao lưu dữ liệu của phpMyAdmin là gì?
+
+ 
+ Dù có nhiều ưu điểm song phpMyAdmin vẫn khó tránh khỏi một vài điểm yếu cố hữu. Đặc biệt, trong việc sao lưu dữ liệu thủ công sẽ không có một vài tính năng cần thiết.
+
+Scheduling(sao lưu tự động theo lịch đặt trước): Một tính năng khá phổ biến ở những công cụ quản trị cơ sở dữ liệu.
+
+Storage media support(hỗ trợ lưu trữ các phương tiện truyền thông): phpMyAdmin chỉ cho phép lưu các bản sao lưu vào các local drive có sẵn trên hệ thống, qua hộp thoại Save as của trình duyệt.
+ 
+ ## Cách sử dụng PHPMyAdmin
+ 
+- Truy cập vào phpMyAdmin
+
+- Quản lý cơ sở dữ liệu
+
+Bước 1 : Chọn thanh tab Databases, sau đó điền tên , chọn kiểu mã hoá.
+
+Bước 2 : Nhấn vào Create sẽ cho kết quả hiện thị tại một database ở cột bên trái.
+
+- Quản lý table (bảng dữ liệu)
+
+Bước 1: Sau khi tạo thành công một CSDL ở cột bên trái, bạn nhấn vào tên dữ liệu.
+
+Bước 2: Tìm đến dòng Create Table để điền tên, trường của bảng mà bạn muốn tạo, cuối cùng nhấn GO.
+
+- Thực hiện truy vấn
+
+Bước 1 : Chọn các bảng data từ bên trái để tìm xem câu lệnh SQL là gì.
+
+Bước 2 : Bạn chọn CSDL rồi chèn câu lệnh vào, cuối cùng nhấn nút GO.
+
+- Sao lưu cơ sở dữ liệu
+
+Bước 1 : Xuất Data ra khỏi hệ thống bằng cú pháp của cơ sở dữ liệu MySQL.
+
+Bước 2 : Nếu sao lưu từ cột bên trái thì chọn Database, tab Export với định dạng là SQL, kiểu sao lưu là Quick.
+
+- Phục hồi CSDL
+
+Bước 1 : Tạo một cơ sở dữ liệu mới
+
+Bước 2 : Từ cột bên trái các bạn chọn tên data rồi truy cập vào tav Import, chọn tên để tìm các file data, file chuẩn là file có đuôi .sql
+
+Bước 3 : Bấm GO.
+ 
+Chèn dữ liệu trong bảng
+
+![image](https://user-images.githubusercontent.com/62273292/160957492-90885459-9329-40b5-a1ee-46b1e9cb47bd.png)
+
+![image](https://user-images.githubusercontent.com/62273292/160957559-8f143a57-157b-4040-ba2c-1ccacd32591e.png)
+
+![image](https://user-images.githubusercontent.com/62273292/160957636-86aba405-735d-4dcd-8ded-74a5acc3c4a0.png)
+
+
+
+- Thực hiện truy vấn
+
+
+ ![image](https://user-images.githubusercontent.com/62273292/160784828-ab985f5f-d80c-42d3-9111-053852278777.png)
+
+ Kết quả
+ 
+ ![image](https://user-images.githubusercontent.com/62273292/160784947-13754f36-b8cd-4caa-be91-a431d50495db.png)
+
+ 
+ Ưu điểm của phpMyAdmin là gì?
+ 
+- Tăng hiệu quả công tác quản lý cơ sở dữ liệu
+
+-Cộng đồng hỗ trợ rộng lớn
+
+-Đa ngôn ngữ
+
+-Chi phí
+ 
+ 
+ **Tăng hiệu quả công tác quản lý cơ sở dữ liệu**
+ 
+ phpMyAdmin mang đến giao diện xử lý các thao tác trên cơ sở dữ liệu một cách trực quan. Từ đó, tiết kiệm thời gian, thao tác so với việc thực hiện bằng dòng lệnh trên command line.
+
+Là công cụ đa năng có thể vừa làm việc với một đối tượng vừa xử lý lỗi hoặc các tính huống bất ngờ.
+
+**Cộng đồng hỗ trợ rộng lớn**
+
+phpMyAdmin có tính chất là một mã nguồn mở, được phát triển bởi rất nhiều lập trình viên trên toàn thế giới. Nhờ đó, người dùng sẽ nhận được sử hỗ trợ rất lớn từ cộng đồng.
+
+**Đa ngôn ngữ**
+
+Được duy trì bởi The phpMyAdmin Project hiện có sẵn đến 64 ngôn ngữ khác nhau.
+
+**Chi phí**
+
+Dù có nhiều ưu điểm và mang đến nhiều lợi ích vượt bậc, phpMyAdmin vẫn là công cụ hoàn toàn miễn phí.
+
+## Nhược điểm của phpMyAdmin là gì?
+ 
+ 
+ – Bảo mật
+ 
+ Hạn chế lớn nhất của các mã nguồn mở chắc chắn là vấn đề bảo mật. Hạn chế truy cập vào URL của phpMyAdmin từ những địa chỉ IP cố định.
+ 
+ – Sao lưu
+ 
+ Như đã chia sẻ, thao tác sao lưu và phục hồi dữ liệu thủ công trên phpMyAdmin vẫn còn một số nhược điểm:
+
+Không thể tự xuất database.
+
+Chỉ có thể kết nối thông qua trình duyệt tức chỉ lưu được các bản sao lưu vào các local drive có sẵn trên hệ thống.
+
+Định dạng file xuất bằng phpMyAdmin không được mã hóa(thiếu an toàn) và chiếm dung lượng đĩa lớn.
