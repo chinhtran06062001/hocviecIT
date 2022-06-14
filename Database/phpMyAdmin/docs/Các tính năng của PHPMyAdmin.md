@@ -40,23 +40,29 @@ Storage media support(hỗ trợ lưu trữ các phương tiện truyền thông
 
 Bước 1 : Chọn thanh tab Databases, sau đó điền tên , chọn kiểu mã hoá.
 
+![image](https://user-images.githubusercontent.com/97047640/173489584-ff687c50-8168-495d-9c5c-06a97e070a81.png)
+
+
 Bước 2 : Nhấn vào Create sẽ cho kết quả hiện thị tại một database ở cột bên trái.
+
+![image](https://user-images.githubusercontent.com/97047640/173489603-7d089b31-0122-42b6-af6e-9fd203084830.png)
+
 
 - Quản lý table (bảng dữ liệu)
 
 Bước 1: Sau khi tạo thành công một CSDL ở cột bên trái, bạn nhấn vào tên dữ liệu.
 
+![image](https://user-images.githubusercontent.com/97047640/173489676-25bb5376-4f8e-4090-8f0c-1aa7668283db.png)
+
 Bước 2: Tìm đến dòng Create Table để điền tên, trường của bảng mà bạn muốn tạo, cuối cùng nhấn GO.
 
-- Thực hiện truy vấn
+![image](https://user-images.githubusercontent.com/97047640/173489918-a7cb635c-62e5-4ccd-9cf4-985afcce6c27.png)
 
-Bước 1 : Chọn các bảng data từ bên trái để tìm xem câu lệnh SQL là gì.
-
-Bước 2 : Bạn chọn CSDL rồi chèn câu lệnh vào, cuối cùng nhấn nút GO.
 
 - Sao lưu cơ sở dữ liệu
 
 Bước 1 : Xuất Data ra khỏi hệ thống bằng cú pháp của cơ sở dữ liệu MySQL.
+
 
 Bước 2 : Nếu sao lưu từ cột bên trái thì chọn Database, tab Export với định dạng là SQL, kiểu sao lưu là Quick.
 
@@ -69,23 +75,22 @@ Bước 2 : Từ cột bên trái các bạn chọn tên data rồi truy cập v
 Bước 3 : Bấm GO.
  
 Chèn dữ liệu trong bảng
+![image](https://user-images.githubusercontent.com/97047640/173491121-b9351b60-14ee-4a89-bf1b-dc3e1a03dc79.png)
 
-![image](https://user-images.githubusercontent.com/62273292/160957492-90885459-9329-40b5-a1ee-46b1e9cb47bd.png)
-
-![image](https://user-images.githubusercontent.com/62273292/160957559-8f143a57-157b-4040-ba2c-1ccacd32591e.png)
-
-![image](https://user-images.githubusercontent.com/62273292/160957636-86aba405-735d-4dcd-8ded-74a5acc3c4a0.png)
-
+![image](https://user-images.githubusercontent.com/97047640/173491163-69ea29f9-7a41-4319-9b38-4fb3eee418f4.png)
 
 
 - Thực hiện truy vấn
 
+Bước 1 : Chọn các bảng data từ bên trái để tìm xem câu lệnh SQL là gì.
 
- ![image](https://user-images.githubusercontent.com/62273292/160784828-ab985f5f-d80c-42d3-9111-053852278777.png)
+Bước 2 : Bạn chọn CSDL rồi chèn câu lệnh vào, cuối cùng nhấn nút GO.
+
+ ![image](https://user-images.githubusercontent.com/97047640/173491303-b3b8c37d-3beb-4eaa-8a88-693afb7b2172.png)
 
  Kết quả
  
- ![image](https://user-images.githubusercontent.com/62273292/160784947-13754f36-b8cd-4caa-be91-a431d50495db.png)
+![image](https://user-images.githubusercontent.com/97047640/173491337-a3de3bbe-a1f9-438f-afac-79196292b151.png)
 
  
  Ưu điểm của phpMyAdmin là gì?
