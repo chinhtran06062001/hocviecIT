@@ -120,4 +120,25 @@ Nhập password và ấn r để lưu thay đổi, tiếp theo nhấn a để c�
 
 ![image](https://user-images.githubusercontent.com/97047640/174706161-789b36cb-d5a2-4f70-a9b0-9c990b75d591.png)
 
+Bước 6: Sau khi cài đặt xong khởi động lại dịch vụ zimbar bằng lệnh :
+
+```
+[root@mail ~]# su zimbra
+[zimbra@mail root]$ zmcontrol restart
+```
+
+Bước 7: Mở port firewall :
+
+```
+firewall-cmd --permanent --add-port={25,80,110,143,443,465,587,993,995,5222,5223,9071,7071}/tcp
+firewall-cmd --reload
+```
+
+Sau đó truy cập bằng zimbar bằng IP : 192.168.126.167
+
+![image](https://user-images.githubusercontent.com/97047640/174734916-46d1aa77-610c-41a2-9f18-1b5f50baa100.png)
+
+Kết quả 
+
+![image](https://user-images.githubusercontent.com/97047640/174735348-23e18faf-c2db-402d-bb29-fed0bf831c81.png)
 
