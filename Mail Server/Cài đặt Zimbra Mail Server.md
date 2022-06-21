@@ -27,7 +27,11 @@ IP(VPS hoặc máy chủ), domain, mail domain
 
 Bước 1: Cập nhật bản ghi mail
 
+
+
 Để phục vụ cho việc cài đặt. Bạn hãy trỏ bản ghi mail như sau trước nhé. Bên dưới là 2 bản ghi và mẫu của mình.
+
+![image](https://user-images.githubusercontent.com/97047640/174745690-73cd62d6-18c6-47e5-bc9c-d0ecee9c0f5f.png)
 
 Bước 2:  Kiểm tra và cập nhật hệ thống
 Bước đầu tiên bạn cần kiểm tra SELINUX xem có đang bật không, nếu đang bật thì bạn tắt đi.
@@ -73,7 +77,7 @@ Sau khi set hostname xong bạn thêm dòng sau vào file hosts bạn nhớ thay
 192.168.126.161 mail.chinhtran.site
 ```
 
-![image](https://user-images.githubusercontent.com/97047640/173776357-87c7e371-bdf7-408b-896f-a3a35ed0dd58.png)
+![image](https://user-images.githubusercontent.com/97047640/174748254-1f0b275a-34d2-4915-8101-dfd84e3d438e.png)
 
 Bước 4: Cài đặt Zimbra
 Bạn thực hiệ chạy lệnh sau để install Zimbra & ZCS dependencies
@@ -108,17 +112,17 @@ Bước 5: Khai báo Domain
 
 Nhập Domain như hình trên, sau đó nhân Enter để tiếp tục
 
-![image](https://user-images.githubusercontent.com/97047640/174705531-999741d3-2b35-4896-ae7f-8ce6c5ff736d.png)
+![image](https://user-images.githubusercontent.com/97047640/174748499-c52af608-52ca-49d1-b6a6-b85a6558f824.png)
 
 Chọn 7 sau đó chọn 4 để thiết lập tài khoản Admin
 
-![image](https://user-images.githubusercontent.com/97047640/174705790-6b875892-4d42-4c7b-9eb2-3f6e4a7a5c72.png)
+![image](https://user-images.githubusercontent.com/97047640/174748621-0656aef0-acd1-43ae-9c69-8ce10c59c5e8.png)
 
 Nhập password và ấn r để lưu thay đổi, tiếp theo nhấn a để cập nhật thay đổi
 
-![image](https://user-images.githubusercontent.com/97047640/174706057-b1c23a2c-c51d-4d72-a201-42623a8a0e5f.png)
+![image](https://user-images.githubusercontent.com/97047640/174748719-a20dc4a2-fc25-4577-ae8c-4fc2c7fac998.png)
 
-![image](https://user-images.githubusercontent.com/97047640/174706161-789b36cb-d5a2-4f70-a9b0-9c990b75d591.png)
+![image](https://user-images.githubusercontent.com/97047640/174748897-0c5a253b-135d-4347-ac7a-8efb0ff7dab6.png)
 
 Bước 6: Sau khi cài đặt xong khởi động lại dịch vụ zimbar bằng lệnh :
 
@@ -134,11 +138,11 @@ firewall-cmd --permanent --add-port={25,80,110,143,443,465,587,993,995,5222,5223
 firewall-cmd --reload
 ```
 
-Sau đó truy cập bằng zimbar bằng IP : 192.168.126.167
+Sau đó truy cập bằng zimbar bằng đường dẫn : https://mail.xn--chnhtrn-8ya8069d.vn
 
-![image](https://user-images.githubusercontent.com/97047640/174734916-46d1aa77-610c-41a2-9f18-1b5f50baa100.png)
+![image](https://user-images.githubusercontent.com/97047640/174756055-1195afdc-7fa4-45bf-a845-8c17a4dfa9e8.png)
 
 Kết quả 
 
-![image](https://user-images.githubusercontent.com/97047640/174735348-23e18faf-c2db-402d-bb29-fed0bf831c81.png)
+![image](https://user-images.githubusercontent.com/97047640/174756317-46a7924b-e92a-49a2-b9fc-ad51d9f776ba.png)
 
