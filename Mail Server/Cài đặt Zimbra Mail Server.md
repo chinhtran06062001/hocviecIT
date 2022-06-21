@@ -80,11 +80,16 @@ Bạn thực hiệ chạy lệnh sau để install Zimbra & ZCS dependencies
 ```
 [root@mail ~]# yum install unzip net-tools sysstat openssh-clients perl-core libaio nmap-ncat libstdc++.so.6 wget -y
 ```
+
+![image](https://user-images.githubusercontent.com/97047640/174704856-ed2ab3e6-9c5b-4a9c-85c0-375060f7cb2e.png)
+
 Bước tiếp theo bạn cần Download Zimbra và cài đặt. Và bạn cần tạo một thư mục zimbra để cài vào đó. Bạn cũng có thể xem các phiên bản Zimbra ở trang chủ để download nhé.
 ```
 [root@mail ~]# mkdir zimbra && cd zimbra
 [root@mail zimbra]# wget https://files.zimbra.com/downloads/8.8.15_GA/zcs-8.8.15_GA_3869.RHEL7_64.20190918004220.tgz --no-check-certificate
 ```
+
+![image](https://user-images.githubusercontent.com/97047640/174704922-717f0c8f-ed0f-431d-8b6e-a30cea539200.png)
 
 Sau khi download về hoàn tất bạn tiến hành giải nén file ra
 
@@ -93,5 +98,26 @@ Sau khi download về hoàn tất bạn tiến hành giải nén file ra
 Truy cập vào thư mục vừa giải nén và chạy lệnh ./install
 
 `[root@mail zimbra]# cd zcs* && ./install.sh`
+
+![image](https://user-images.githubusercontent.com/97047640/174704980-bfe54989-1112-4178-8f60-9578db00f018.png)
+
+
+Bước 5: Khai báo Domain 
+
+![image](https://user-images.githubusercontent.com/97047640/174705375-70118e3e-c184-4c21-9574-15cdb81d1f4f.png)
+
+Nhập Domain như hình trên, sau đó nhân Enter để tiếp tục
+
+![image](https://user-images.githubusercontent.com/97047640/174705531-999741d3-2b35-4896-ae7f-8ce6c5ff736d.png)
+
+Chọn 7 sau đó chọn 4 để thiết lập tài khoản Admin
+
+![image](https://user-images.githubusercontent.com/97047640/174705790-6b875892-4d42-4c7b-9eb2-3f6e4a7a5c72.png)
+
+Nhập password và ấn r để lưu thay đổi, tiếp theo nhấn a để cập nhật thay đổi
+
+![image](https://user-images.githubusercontent.com/97047640/174706057-b1c23a2c-c51d-4d72-a201-42623a8a0e5f.png)
+
+![image](https://user-images.githubusercontent.com/97047640/174706161-789b36cb-d5a2-4f70-a9b0-9c990b75d591.png)
 
 
