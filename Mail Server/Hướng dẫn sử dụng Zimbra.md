@@ -43,3 +43,106 @@
 
 Nếu Gửi thành công hệ thống sẽ hiện lên thông báo : Đã gửi thông điệp.                                                                                            
 
+2.2. Một số thao tác liên quan
+- Trong trường hợp người sử dụng muốn lưu thư vừa viết ra:
+
+- Trường hợp hủy và quay lại màn hình chính NSD chọn nút hủy bỏ để hủy thư :
+   * Bảng yêu cầu xác thực hiện lên, NSD có thể chọn lưu lại thư hoặc không lưu để trở về
+màn hình chính :
+
+- Chức năng khi ấn chuột phải vào từng thư:
+   * NSD tiến hành tích chuột phải vào từng thư để tiến hành các tác vụ :
+   * Cụ thể tác dụng của từng mục :
+- Đánh dấu là chưa đọc : NSD đánh dấu thư thành chưa đọc.
+- Hồi âm: NSD chọn mục này nếu muốn gửi thư phản hồi cho những người trong
+danh sách gửi thư phản hồi.
+- Hồi âm tất cả: NSD chọn mục này nếu muốn gửi thư cho tất cả thành phần liên
+quan.
+
+- Chuyển tiếp : NSD nếu muốn lấy nội dung
+thư này để chỉnh sửa và gửi cho địa chỉ email khác.
+- Xoá bỏ : NSD nếu muốn loại bỏ thư khỏi danh sách.
+- Tiện ích mục XEM ở góc trên bên phải:
+   * NSD kích chuột vào chữ xem và chọn các tác vụ tương ứng :
+Chi tiết :
+- Theo cuộc đàm luận : Sắp xếp thư theo thứ tự các thư có cùng chủ đề, ta có thể
+tích vào các dấu tam giác ở bên trái thư để xổ xuống :
+- Xem thư theo thông điệp : Sắp xếp thư theo thời gian, thư càng trên cao là càng
+mới nhất :
+
+- Vùng đọc ở dưới : Hiển thị danh sách thư ở trên,
+nội dung đọc thư ở dưới :
+- Vùng đọc bên phải : Danh sách thư ở bên trái, vùng đọc thư ở bên phải :
+- Khung đọc tắt : Chỉ hiển thị danh sách thư, đến khi tích vào thư thì khung đọc sẽ
+bung ra kín màn hình :
+
+- Giới thiệu chức năng của nút tam giác thông điệp mới
+- Thông điệp mới : Nếu NSD muốn soạn 1 mail mới (Chức năng này đã được
+hướng dẫn ở trên).
+- Liên hệ : NSD tạo thông tin liên hệ của 1 cá nhân.
+   * NSD nhập thông tin người cần liên hệ, tiếp đó NSD chọn Lưu lại để lưu hoặc Hủy bỏ
+để bỏ qua :
+
+   * NSD vào Sổ địa chỉ để xem danh sách người liên hệ :
+- Nhóm liên hệ : Nếu NSD muốn liên hệ với 1 nhóm .
+   * NSD tiến hành thêm địa chỉ nhóm từ phải qua trái :
+
+   * Sau đó NSD chọn Lưu lại để lưu lại hoặc Hủy bỏ để bỏ qua.
+- Cuộc hẹn : NSD lên lịch làm việc để gửi cho các user email khác.
+   * NSD nhập thông tin cuộc hẹn và điền địa chỉ email :
+
+   * NSD chọn Lưu lại, tiếp theo NSD chọn Gửi.
+- Thư mục : Được tạo ra để người dùng gộp những thư liên quan vào 1 nơi để NSD
+dễ quản lý.
+   * NSD nhập tên thư mục cần tạo, chỉ định thư mục được lưu trong Thư đi, hoặc Thư
+đến :
+
+Kết quả :
+   * NSD muốn gộp thư vào thư mục chỉ cần dùng chuột kéo thư vào thư mục vừa tạo là OK.
+- Lịch : NSD tạo 1 lịch mới để làm việc.
+
+   * NSD nhập tên lịch và thông tin vào bảng và chọn Đồng ý:
+   * NSD muốn xem danh sách lịch NSD chọn Lịch ở thanh Menu trên cùng :
+
+- Hướng dẫn thực hiện tìm kiếm thư :
+   * NSD có thể tìm kiếm thư theo địa chỉ mail cũng như từ khóa có trong thư, NSD đánh
+từ khóa vào ô TÌM KIẾM ở khung trắng trên bên trái màn hình rồi tích vào biểu tượng
+kính lúp để tìm kiếm thư :
+   * Kết quả thư tìm kiếm sẽ được hiển thị hết bên dưới :
+
+3.2. Giới thiệu thêm 1 số tác vụ trong mục tùy chọn.
+- Tùy chọn đăng nhập :
+Chủ đề : Dùng để hiển thị giao diện mail :
+
+- Ngôn ngữ : Dùng hiển thị ngôn ngữ dùng trong mail, mặc định là tiếng việt:
+- Compose direction : Hiển thị cách viết thư, có 2 cách là từ trái sang phải hoặc
+từ phải sang trái. Mặc định thông thường là từ trái qua phải (Left to right) :
+
+- Font : Hiển thị kiểu chữ trong mail .
+- Múi giờ mặc định : Xác định giờ trong mail, thông thường là Bangkok – HaNoi – Jakarta :
+- Tìm kiếm :Chọn các tác vụ và ngôn ngữ tìm kiếm.
+- Khác : 1 số tùy chọn tiện ích của mail.
+
+
+3.3. Thoát khỏi hệ thống:
+   * Góc phải màn hình, NSD chọn biểu tượng tam giác bên cạnh tên tài khoản. Sau đó,
+NSD chọn Đăng xuất để thoát khỏi hệ thống.
+
+3.4. Giới thiệu Lịch :
+   * Mục đích: Hiển thị lịch làm việc cá nhân của mail ,cột bên trái là danh sách lịch đã
+được tạo.
+   * NSD muốn thêm công việc vào lịch chỉ cần click vào tính năng Cuộc hẹn mới và nhập
+các thông tin cần thiết
+
+3.5. Sổ địa chỉ
+   * Hiển thị ra danh sách cá nhân hoặc group liên hệ :
+
+   * NSD chọn Đồng ý để hoàn thành.
+3.6. Giới thiệu cặp tài liệu :
+Dùng để lưu trữ các file tài liệu của riêng mình. Đồng thời có thể chia sẽ cho các NSD
+khác
+Tạo thư mục: Để tao thư mục riêng lưu trữ các tài liệu
+Tải lên tập tin: tải lên tập tin và lưu trữ trong thư mục
+Để chia sẻ tài liệu cho NDS khác, Click vào Thư mục cần chia sẻ -> chọn tính năng
+chia sẻ thư mục -> Nhập địa chỉ email cũng như phân quyền (xem, sửa…)để người
+được chia sẻ sử dụng
