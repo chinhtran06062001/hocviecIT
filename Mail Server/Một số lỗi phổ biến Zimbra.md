@@ -66,9 +66,9 @@ zmcontrol stop
 Khắc phục :
 
 >Kiểm tra IP Mail đang bị Blacklist tại đây
-
+>
 >Nếu IP Mail được MxToolBox cảnh báo nhẹ ( < 3 ) tiến hành đăng ký tài khoản để gỡ Blacklist + Rà soát hệ thống Mail bằng file Log hoặc kiểm tra account lạ trong trang quản trị
-
+>
 >Nếu bị nặng, cách nhanh nhất là đổi IP cho Mail , tiến hành rà soát hệ thống Mail bằng Log để tìm nguồn phát tán , xóa các account gửi spam , quét virus hệ thống
 
 **Zimbra_08 ) /opt/zimbra/bin/ldap: line56: kill No such process**
@@ -101,6 +101,7 @@ Khắc phục :
 **Zimbra_11 ) Starting ldap…Done.**
 
 >Unable to determine enabled services from ldap.
+>
 >Enabled services read from cache. Service list may be inaccurate.
 
 Khắc phục :
