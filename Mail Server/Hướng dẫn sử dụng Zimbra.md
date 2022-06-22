@@ -110,7 +110,9 @@ từ khóa vào ô TÌM KIẾM ở khung trắng trên bên trái màn hình r�
 kính lúp để tìm kiếm thư :
    * Kết quả thư tìm kiếm sẽ được hiển thị hết bên dưới :
 
-3.2. Giới thiệu thêm 1 số tác vụ trong mục tùy chọn.
+## 3. Giới thiệu một số tính năng
+
+3.1. Giới thiệu thêm 1 số tác vụ trong mục tùy chọn.
 - Tùy chọn đăng nhập :
 Chủ đề : Dùng để hiển thị giao diện mail :
 
@@ -124,21 +126,21 @@ từ phải sang trái. Mặc định thông thường là từ trái qua phải
 - Khác : 1 số tùy chọn tiện ích của mail.
 
 
-3.3. Thoát khỏi hệ thống:
+3.2. Thoát khỏi hệ thống:
    * Góc phải màn hình, NSD chọn biểu tượng tam giác bên cạnh tên tài khoản. Sau đó,
 NSD chọn Đăng xuất để thoát khỏi hệ thống.
 
-3.4. Giới thiệu Lịch :
+3.3. Giới thiệu Lịch :
    * Mục đích: Hiển thị lịch làm việc cá nhân của mail ,cột bên trái là danh sách lịch đã
 được tạo.
    * NSD muốn thêm công việc vào lịch chỉ cần click vào tính năng Cuộc hẹn mới và nhập
 các thông tin cần thiết
 
-3.5. Sổ địa chỉ
+3.4. Sổ địa chỉ
    * Hiển thị ra danh sách cá nhân hoặc group liên hệ :
 
    * NSD chọn Đồng ý để hoàn thành.
-3.6. Giới thiệu cặp tài liệu :
+3.5. Giới thiệu cặp tài liệu :
 Dùng để lưu trữ các file tài liệu của riêng mình. Đồng thời có thể chia sẽ cho các NSD
 khác
 Tạo thư mục: Để tao thư mục riêng lưu trữ các tài liệu
