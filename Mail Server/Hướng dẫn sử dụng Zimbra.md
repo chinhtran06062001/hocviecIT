@@ -3,13 +3,19 @@
 ## 1.1 Truy cập vào hệ thống
 
 - Từ trình duyệt web NSD (người sử dụng) nhập địa chỉ : http//mail.chínhtrần.vn , giao diện được như hình dưới:
-- Tiếp theo NSD nhập tài khoản và mật khâu truy cập tương ứng:
+
+ ![image](https://user-images.githubusercontent.com/97047640/175262936-1f09a78f-d1d8-4e1a-836c-e4ec183ca0e6.png)
+
+- Tiếp theo NSD nhập tài khoản và mật khâu truy cập tương ứng
 - Phiên bản sử dụng : Tuỳ chọn các phiên bản để đăng nhập vào mail tương ứng:
   
   * Mặc định : sẽ lấy thông tin đăng nhập cũ được lưu trong bộ nhớ cache (Khuyến nghị sử dụng tuỳ chọn này).
   * Chức năng đầy đủ : Chuẩn này dùng cho truy cập vào mail với tốc độ truy cập Internet ổn định, và truy cập hỗ trợ nhanh hơn. Đầy đủ tính năng hệ thống
   * Chức năng căn bản : chuẩn này hỗ trợ truy cập mail nhanh hơn khi đường truyền Internet bị chậm.
   * Mobile : Chuẩn này hỗ trợ truy cập mail từ điện thoại, khi user truy cập từ điện thoại, zimbra sẽ tự động detect và tự động thiết lập option này, user không cần phải chọn
+
+![image](https://user-images.githubusercontent.com/97047640/175263111-b5587958-2ccb-45e3-a86d-435a1d46a07f.png)
+
 
 ## 1.2 Đổi lại mật khẩu mặc định 
 
@@ -20,6 +26,8 @@
 ## 1.3 Thao tác trong mail:
 
 - sau khi đăng nhâọ thành công, hệ thống sẽ hiện lên trình điều khiển trong mail: 
+
+
 - Nếu NSD muốn chỉnh giao điện tiếng anh chọn mục Tuỳ chọn, tiếp theo NSD chọn mục ngôn ngữ chọn - Tiếng Anh - English
 - Nếu NSD muốn xem thư được gửi đến NSD chọn mục thư đến (Bên Menu bên trái)
 - Nếu NSD muốn xem thư đã được gửi đi, NSD chọn mục thư đã gửi (Bên menu trái)
