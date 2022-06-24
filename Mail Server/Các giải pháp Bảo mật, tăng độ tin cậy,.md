@@ -42,3 +42,10 @@ Bước 2 : Đăng nhập tên miền vào
 
 ![image](https://user-images.githubusercontent.com/97047640/175460009-cd4232fb-2040-4bf6-8cf1-06dd9fbd61ad.png)
 
+Thêm các bản ghi CName cũng như TXT yêu cầu vào 
+
+![image](https://user-images.githubusercontent.com/97047640/175461368-2fbde10a-f5fe-4a8f-97e5-51afa70e7524.png)
+
+![image](https://user-images.githubusercontent.com/97047640/175461334-73900ff5-b972-4ae8-89a5-bffff057b3b6.png)
+
+![image](https://user-images.githubusercontent.com/97047640/175461444-e9c85652-4134-4083-a828-0cbc9e94b631.png)
