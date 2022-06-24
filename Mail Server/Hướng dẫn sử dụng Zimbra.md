@@ -121,12 +121,27 @@ Chi tiết :
    * NSD nhập tên thư mục cần tạo, chỉ định thư mục được lưu trong Thư đi, hoặc Thư đến :
 Kết quả :
    * NSD muốn gộp thư vào thư mục chỉ cần dùng chuột kéo thư vào thư mục vừa tạo là OK.
+
+![image](https://user-images.githubusercontent.com/97047640/175450149-ee309a72-d99a-4d86-a61f-77d4ec55d013.png)
+
+![image](https://user-images.githubusercontent.com/97047640/175450191-f2a0aa87-2832-440a-95ab-290dda003896.png)
+
 - Lịch : NSD tạo 1 lịch mới để làm việc.
    * NSD nhập tên lịch và thông tin vào bảng và chọn Đồng ý:
    * NSD muốn xem danh sách lịch NSD chọn Lịch ở thanh Menu trên cùng :
+
+![image](https://user-images.githubusercontent.com/97047640/175450267-9a491256-84a4-4d85-b68d-f2b57dd4af0b.png)
+
+![image](https://user-images.githubusercontent.com/97047640/175450363-58ff3816-7689-41d8-a27c-a3b6e2017d2c.png)
+
 - Hướng dẫn thực hiện tìm kiếm thư :
    * NSD có thể tìm kiếm thư theo địa chỉ mail cũng như từ khóa có trong thư, NSD đánh từ khóa vào ô TÌM KIẾM ở khung trắng trên bên trái màn hình rồi tích vào biểu tượng kính lúp để tìm kiếm thư :
    * Kết quả thư tìm kiếm sẽ được hiển thị hết bên dưới :
+
+![image](https://user-images.githubusercontent.com/97047640/175450486-eb576dd3-95f6-418a-bde4-d2cba0c399b5.png)
+
+![image](https://user-images.githubusercontent.com/97047640/175450516-fbbc9aca-3d7a-4b7e-a9d9-3d02e48dfce1.png)
+
 ## 3. Giới thiệu một số tính năng
 
 ## 3.1. Giới thiệu thêm 1 số tác vụ trong mục tùy chọn.
@@ -142,10 +157,13 @@ từ phải sang trái. Mặc định thông thường là từ trái qua phải
 - Tìm kiếm :Chọn các tác vụ và ngôn ngữ tìm kiếm.
 - Khác : 1 số tùy chọn tiện ích của mail.
 
+![image](https://user-images.githubusercontent.com/97047640/175450640-2b40ae51-9bb6-430c-a463-d2116545c5d8.png)
 
 ## 3.2. Thoát khỏi hệ thống:
    * Góc phải màn hình, NSD chọn biểu tượng tam giác bên cạnh tên tài khoản. Sau đó,
 NSD chọn Đăng xuất để thoát khỏi hệ thống.
+
+![image](https://user-images.githubusercontent.com/97047640/175450687-586d746f-b217-4a69-a4ce-2ff8bbe04dc1.png)
 
 ## 3.3. Giới thiệu Lịch :
    * Mục đích: Hiển thị lịch làm việc cá nhân của mail ,cột bên trái là danh sách lịch đã
@@ -153,11 +171,10 @@ NSD chọn Đăng xuất để thoát khỏi hệ thống.
    * NSD muốn thêm công việc vào lịch chỉ cần click vào tính năng Cuộc hẹn mới và nhập
 các thông tin cần thiết
 
-## 3.4. Sổ địa chỉ
-   * Hiển thị ra danh sách cá nhân hoặc group liên hệ :
+![image](https://user-images.githubusercontent.com/97047640/175450723-91ff7335-c3f4-4500-8ba5-748be47ae7a8.png)
 
-   * NSD chọn Đồng ý để hoàn thành.
-## 3.5. Giới thiệu cặp tài liệu :
+
+## 3.4. Giới thiệu cặp tài liệu :
 Dùng để lưu trữ các file tài liệu của riêng mình. Đồng thời có thể chia sẽ cho các NSD
 khác
 Tạo thư mục: Để tao thư mục riêng lưu trữ các tài liệu
@@ -165,3 +182,7 @@ Tải lên tập tin: tải lên tập tin và lưu trữ trong thư mục
 Để chia sẻ tài liệu cho NDS khác, Click vào Thư mục cần chia sẻ -> chọn tính năng
 chia sẻ thư mục -> Nhập địa chỉ email cũng như phân quyền (xem, sửa…)để người
 được chia sẻ sử dụng
+
+![image](https://user-images.githubusercontent.com/97047640/175452448-c8dee05a-bb14-4035-909a-664b0720c4a5.png)
+
+![image](https://user-images.githubusercontent.com/97047640/175452838-4407c21b-c95e-412d-87a8-b8d5b98f20b0.png)
