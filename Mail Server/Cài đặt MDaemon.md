@@ -39,3 +39,16 @@ Bước7 : Nhập tên Domain vào
 Bước 8: Điền các thông tin theo hình và next để hoàn thành
 
 ![image](https://user-images.githubusercontent.com/97047640/175756346-376d21c6-fc7f-49af-9de9-8fa1c8ad7cbd.png)
+
+Bước 9 : Đăng nhập và truy cập theo tài khoản mà mình đã đăng ký 
+
+![image](https://user-images.githubusercontent.com/97047640/175756486-794e2880-116f-4195-b49c-8861f30651dd.png)
+
+Nhấn lưu thông tin cá nhân
+
+![image](https://user-images.githubusercontent.com/97047640/175756504-c87491e4-25bb-4e8e-843f-42b1a206bd44.png)
+
+## Kết quả 
+
+![image](https://user-images.githubusercontent.com/97047640/175756522-c8ebbb51-3047-4e28-a379-0c5caf855352.png)
+
