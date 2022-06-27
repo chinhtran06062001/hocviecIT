@@ -137,3 +137,8 @@ Kiểm tra truy cập bằng domain
 
 ![image](https://user-images.githubusercontent.com/97047640/175853000-5e924c79-e234-4be1-a74f-afa76fb93bf5.png)
 
+Gửi mail
+
+![image](https://user-images.githubusercontent.com/97047640/175861348-7fd8033c-d6d6-440a-b2a1-306f17050efc.png)
+
+![image](https://user-images.githubusercontent.com/97047640/175861485-4ec717e9-f943-46a5-a385-4f38dd606654.png)
