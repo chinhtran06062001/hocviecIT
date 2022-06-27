@@ -1,18 +1,19 @@
 I. Hướng dẫn quản trị hệ thống mail:
  
 1. Đăng nhập vào đường link quản trị mail dạng như sau:
-http://mail.tgs.com.vn:1000
+http://192.168.126.151:1000
 
+![image](https://user-images.githubusercontent.com/97047640/175893209-bcf14871-9583-4267-9d87-148b1ffd193c.png)
 
 2. Tạo email:
 
 Từ menu bên trái, chọn Accounts → New như hình bên dưới.
 
-
+![image](https://user-images.githubusercontent.com/97047640/175893254-848f6639-bc36-4c8d-9840-fd53225c33d5.png)
 
 1 cửa sổ mới mở ra, nhập đầy đủ các thông tin sau đó nhấn Save như hình bên dưới.
 
-
+![image](https://user-images.githubusercontent.com/97047640/175893419-373bfec4-4b98-46af-acfc-216ea49b03e9.png)
 
 3. Cấu hình chuyển tiếp mail (forwarding):
 
