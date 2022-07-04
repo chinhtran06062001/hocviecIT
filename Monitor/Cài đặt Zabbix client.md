@@ -10,8 +10,6 @@ Cài đặt zabbix release
 
 `rpm -ivh zabbix-release-5.0-1.el8.noarch.rpm`
 
-![image](https://user-images.githubusercontent.com/62273292/165902608-e0ac13af-84fe-4759-a99a-41f7d4c6a194.png)
-
 Cài đặt zabbix agent
 
 ![image](https://user-images.githubusercontent.com/97047640/177116861-58bdf41d-ac1b-4ed6-b41f-08cb4b9f5437.png)
@@ -27,3 +25,10 @@ Cấu hình file /etc/zabbix/zabbix_agent2.conf
 Sau đó khởi động lại zabbix bằng lệnh :
 
 `systemctl restart zabbix-agent`
+
+# Cài đặt Zabbix Client For Windown
+
+Truy cập https://www.zabbix.com/download_agents?version=5.0+LTS&release=5.0.24&os=Windows&os_version=Any&hardware=amd64&encryption=OpenSSL&packaging=MSI&show_legacy=0 để tải phần mềm zabbix dành cho windown
+
+![image](https://user-images.githubusercontent.com/97047640/177124596-5e330a01-6bab-4dc6-b23c-1d99a66cd5c4.png)
+
