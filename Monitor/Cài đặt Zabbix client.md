@@ -26,9 +26,12 @@ Sau đó khởi động lại zabbix bằng lệnh :
 
 `systemctl restart zabbix-agent`
 
-# Cài đặt Zabbix Client For Windown
+# Cài đặt Zabbix Client For Windowns
 
 Truy cập https://www.zabbix.com/download_agents?version=5.0+LTS&release=5.0.24&os=Windows&os_version=Any&hardware=amd64&encryption=OpenSSL&packaging=MSI&show_legacy=0 để tải phần mềm zabbix dành cho windown
 
 ![image](https://user-images.githubusercontent.com/97047640/177124596-5e330a01-6bab-4dc6-b23c-1d99a66cd5c4.png)
 
+Tiến hành cài đặt phần mềm 
+
+![image](https://user-images.githubusercontent.com/97047640/177128584-7892d8e5-5bd7-45ac-bce2-5badcafbf549.png)
