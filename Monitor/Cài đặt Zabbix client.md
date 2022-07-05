@@ -57,3 +57,14 @@ Chọn Install và đợi cài đặt hoàn tất
 
 # Hướng dẫn cấu hình zabbix trên windowns 
 
+Truy cập Computer Management -> Service -> Zabbix Agent -> Properties -> Sửa đổi Automatic thành Automatic (Delayed Start)
+
+![image](https://user-images.githubusercontent.com/97047640/177242060-9e7458cb-c211-45c3-85e1-ec53da5b345a.png)
+
+Truy cập Control Pannel -> System and Security -> Windowns Defender Firewall -> Allow Apps -> Tiến hành add các file path .exe của zabbix vào 
+
+![image](https://user-images.githubusercontent.com/97047640/177242317-5bc6f4e7-03ac-49b3-9a12-cc1976f1e34c.png)
+
+![image](https://user-images.githubusercontent.com/97047640/177242350-54b3f9a2-1d37-46fa-94c3-6a02f2abe8eb.png)
+
+![image](https://user-images.githubusercontent.com/97047640/177242686-7bd83f75-e486-437f-9bcb-b3ff3a12a803.png)
