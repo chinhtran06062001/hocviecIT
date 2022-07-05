@@ -68,3 +68,17 @@ Truy cập Control Pannel -> System and Security -> Windowns Defender Firewall -
 ![image](https://user-images.githubusercontent.com/97047640/177242350-54b3f9a2-1d37-46fa-94c3-6a02f2abe8eb.png)
 
 ![image](https://user-images.githubusercontent.com/97047640/177242686-7bd83f75-e486-437f-9bcb-b3ff3a12a803.png)
+
+Truy cập Control Pannel -> System and Security -> Windowns Defender Firewall -> Advanced Setting  -> Inbound Rules -> New Roles 
+
+![image](https://user-images.githubusercontent.com/97047640/177246526-1fcd762a-603c-4a1e-a8f4-10c01fd67b94.png)
+
+![image](https://user-images.githubusercontent.com/97047640/177246586-09634aea-84cb-4977-af0d-947204c495ef.png)
+
+![image](https://user-images.githubusercontent.com/97047640/177246622-93ff49ee-7eec-4c97-8be8-0789d9650597.png)
+
+![image](https://user-images.githubusercontent.com/97047640/177246666-493ac638-20fb-4e93-9cd0-afd1a25be42b.png)
+
+![image](https://user-images.githubusercontent.com/97047640/177246727-00eaf21a-3746-495d-93ed-c4ad7b2ef800.png)
+
+ Kết thúc cấu hình.
