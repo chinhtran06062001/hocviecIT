@@ -1,20 +1,22 @@
 # Hướng dẫn thao tác trên Dashboard zabbix #
+
 Đây là giao diện tổng quan khi cài đặt zabbix thành công. Gồm nhiều mục lớn như Monitoring, Inventory, Reports, Configuration, Administrator. Trong các tab lớn sẽ bao gồm nhiều task thành phần nhỏ hơn.
 
-![](https://i.imgur.com/XVNxgwV.png)
+![image](https://user-images.githubusercontent.com/97047640/177247051-3c791b14-2673-4ad7-90e9-5bbf05283cef.png)
 
 
 ## 1. Tab Monitoring ##
 
 
-![](https://i.imgur.com/c6xpY6q.png)
+![image](https://user-images.githubusercontent.com/97047640/177248207-a03df9ff-3310-4430-ae0f-5f68030f77b0.png)
 
 **1.1. Dashboard**
 
 **Dashboard**: Là giao diện hiển thị các dashboard trực quan để người quản trị nhìn trực tiếp, người quản trị có thể tạo ra rất nhiều các dashboard khác nhau, nhưng tại một tab screen chỉ có thể xem được 1 dashboard bất kỳ nào đó.
 
 Từ Dashboard có thể nhanh chống liên kết đến các thành phần như Graphs, Screens, Map bằng cách thêm các thành phần mong muốn vào mục Favourite graphs, Favourite Screen và Favourite map.
-![](https://i.imgur.com/1ZM0u8p.png)
+
+![image](https://user-images.githubusercontent.com/97047640/177248288-b7a38156-a6e6-4df9-9d32-f640dc83ccd2.png)
 
 Gồm nhiều phần hiển thị nhỏ hơn:
 
@@ -22,19 +24,15 @@ Gồm nhiều phần hiển thị nhỏ hơn:
 
 Bảng này hiển thị trạng thái của zabbix server, số lượng các host, trigger, item, số người đang đăng nhập và trạng thái của các thông số trên ở 2 cột value và Details
 
-![](https://i.imgur.com/3QBTvi4.png)
+![image](https://user-images.githubusercontent.com/97047640/177248630-2b4bd1a4-6fc2-4f36-b5f4-93c4e1aedf16.png)
 
 + System status: Hiển thị mức độ cảnh báo của từ host trong từng group
 
-![](https://i.imgur.com/j2GCjiM.png)
+![image](https://user-images.githubusercontent.com/97047640/177249150-9ae3d306-bc2b-420c-b9e0-9594630d7526.png)
 
 + Problems: Tất cả các vấn đề xảy ra với các host trong các group thống kê theo thời gian.
 
-![](https://i.imgur.com/GzAlWl2.png)
-
-+ Các bảng để hiển thị sẵn graphs, screens, maps
-
-![](https://i.imgur.com/EFykCyg.png)
+![image](https://user-images.githubusercontent.com/97047640/177249228-81f529be-5d4b-4488-bee7-741facef91a9.png)
 
 Có thể tùy chỉnh add thêm những gì muốn hiển thị theo ý muốn tương ứng với từng mục.
 
