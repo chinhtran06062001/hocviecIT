@@ -68,12 +68,7 @@ Host group, Host, Application, Trigger, Problem, Host inventory, Tags, Show host
 
 ![image](https://user-images.githubusercontent.com/97047640/177251739-3ad974d0-47c2-407f-9db7-af75fc6081cd.png)
 
-**1.5. Triggers**
-+Triggers: Là một điều kiện khi thỏa mãn điều kiện của Triggers mà người lập trình đặt ra thì sẽ thực hiện một hành động nào đó tiếp theo.
-
-![](https://i.imgur.com/nNu32ee.png)
-
-**1.6. Graphs**
+**1.5. Graphs**
 
 +Graphs:  Là các thông tin dữ liệu được biểu diễn dưới dạng biểu đồ theo thời gian thực ví dụ như trafiic qua interface của thiết bị, thông tin về tình trạng CPU, RAM, ổ cứng… Các thông tin này được định nghĩa trong các templates.
 
@@ -83,19 +78,19 @@ Tại một thời điểm chỉu xem được 1 thông số dạng graph của 
 
 ![](https://i.imgur.com/j1XMqL7.png)
 
-**1.7. Screen**
+**1.6. Screen**
 
 +Screen: Là tập hợp các thông tin như Graphs, maps,data overview… vào chung một màn hình giám sát. Giúp người quản trị có thể lựa chọn các thông tin cần thiết hiển thị, giúp có cái nhìn tổng quát những thông tin mà người quản trọ mong muốn.
 
 ![](https://i.imgur.com/NiFg7vM.png)
 
-**1.8. Maps**
+**1.7. Maps**
 
 +Maps: Là thành phân cung cấp khả năng giám sát hệ thống dưới hình thức mô hình mạng. Giúp người quản trị có cái nhìn tổng quan về hệ thống sống mạng dưới dạng sơ đồ, trong trường hợp có sự cố sẽ giúp người quản trị đánh giá tầm ảnh hưởng của thiết bị gặp sự cố và đưa ra giải pháp phù hợp.
 
 ![](https://i.imgur.com/1fwhYj7.png)
 
-**1.9. Discovery**
+**1.8. Discovery**
 
 +Discovery: Tính năng cho phép zabbix server tự động tìm kiếm các thiết bị được cài đặt zabbix agent đã cấu hình kết nối về zabbix server trong cùng mạng với zabbix server.
 
