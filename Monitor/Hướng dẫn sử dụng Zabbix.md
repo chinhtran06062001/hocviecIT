@@ -40,13 +40,13 @@ Có thể tùy chỉnh add thêm những gì muốn hiển thị theo ý muốn 
 
 Click vào dấu ... nhỏ để cấu hình như ở dưới
 
-![](https://i.imgur.com/kj9wCpK.png)
+![image](https://user-images.githubusercontent.com/97047640/177250704-6c3ba6a1-bd7e-400d-ab60-831091f07f04.png)
 
 **1.2. Problems**
 
 +Problems: Hiển thị các vấn đề đối với từng device mà zabbix server thu thập dữ liệu về. Hỗ trợ cơ chế lọc theo ý người quản trị.
 
-![](https://i.imgur.com/ZJfmqjk.png)
+![image](https://user-images.githubusercontent.com/97047640/177250862-2464ecfc-1440-4d81-a3ca-4e10d435178a.png)
 
 + Có thể lọc theo các tiêu chí sau và có thể export ra file csv để lưu trữ lại.
 
@@ -60,13 +60,13 @@ Host group, Host, Application, Trigger, Problem, Host inventory, Tags, Show host
 
 +Overview: Là sự tổng hợp thông tin về data zabbix zerver thu thập được, có thể lọc them group -> host -> Kiểu data.
 
-![](https://i.imgur.com/e7VAhYK.png)
+![image](https://user-images.githubusercontent.com/97047640/177251319-21abacc9-f278-4aaa-aaae-8f81eac46564.png)
 
 **1.4. Latest data**
 
 +Latest data: Dữ liệu mới nhất mà zabbix server thu thập được.
 
-![](https://i.imgur.com/WqVd6Tu.png)
+![image](https://user-images.githubusercontent.com/97047640/177251739-3ad974d0-47c2-407f-9db7-af75fc6081cd.png)
 
 **1.5. Triggers**
 +Triggers: Là một điều kiện khi thỏa mãn điều kiện của Triggers mà người lập trình đặt ra thì sẽ thực hiện một hành động nào đó tiếp theo.
