@@ -121,9 +121,11 @@ http://192.168.126.167/monitoring
 
 **Chú ý**: Thay địa chỉ IP của bạn vào đường dẫn và đăng nhập theo tài khoản mật khẩu mà hệ thống cung cấp 
 
-<img src="../images/login-1-1.png" />
+![image](https://user-images.githubusercontent.com/97047640/177449130-3ba4ff50-05e3-4738-91e1-328d9cd35446.png)
 
-<img src="../images/login-2-1.png" />
+![image](https://user-images.githubusercontent.com/97047640/177449280-b64f2161-de15-436c-a594-85a9ed5e0876.png)
+
+![image](https://user-images.githubusercontent.com/97047640/177449336-6628e68b-78e9-4068-8c1f-60315a237287.png)
 
 
 <a name="3"></a>
@@ -131,12 +133,4 @@ http://192.168.126.167/monitoring
 
 Script cài đặt: [Xem chi tiết](https://gist.github.com/hoangdh/f5894b682d984a9d7e8f4818d63fcc0c)
 
-Các bài viết tiếp theo:
-
-- [2. Cài đặt Agent trên host cần giám sát](2.Install-agent.md)
-- [3. Cấu hình Active Check dịch vụ](3.Active-check.md)
-- [4. Đặt ngưỡng cảnh báo cho dịch vụ](4.Set-threshold.md)
-- [5. Cấu hình gửi mail cảnh báo sử dụng Gmail](5.Send-Noitify.md)
-- [6. Thêm plugin vào OMD](6.Add-plugins.md)
-- [7. Distributed Monitoring](7.Distributed.md)
 - **Bonus:** [Quản lý các site trên OMD](Management-OMD.md)
