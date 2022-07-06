@@ -73,7 +73,7 @@ omd create monitoring
 
 **Chú ý**: `monitoring` là tên tùy chọn, bạn có thể đặt bất cứ tên gì bạn muốn
 
-<img src="../images/3.info-site.png" />
+![image](https://user-images.githubusercontent.com/97047640/177448953-f5d69ab5-f3b3-4e9c-b07a-bd788ef56098.png)
 
 Thông tin `site` được mô tả ở hình.
    
@@ -83,7 +83,7 @@ Thông tin `site` được mô tả ở hình.
 omd start monitoring
 ```
 
-<img src="../images/4.active-site.png" />
+![image](https://user-images.githubusercontent.com/97047640/177448971-c6f852f3-2b43-45c1-b0fd-043f5d93e543.png)
 
 - **Bước 3:** Mở port 80 cho HTTPD trên Firewalld
 
@@ -116,10 +116,10 @@ Sửa dòng `SELINUX=enforcing` thành `SELINUX=disabled`.
 Dùng trình duyệt truy cập vào địa chỉ
 
 ```
-http://192.168.100.131/monitoring
+http://192.168.126.167/monitoring
 ```
 
-**Chú ý**: Thay địa chỉ IP của bạn vào đường dẫn và đăng nhập theo `omdadmin/omd`
+**Chú ý**: Thay địa chỉ IP của bạn vào đường dẫn và đăng nhập theo tài khoản mật khẩu mà hệ thống cung cấp 
 
 <img src="../images/login-1-1.png" />
 
