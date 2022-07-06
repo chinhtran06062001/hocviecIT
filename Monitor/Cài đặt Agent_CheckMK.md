@@ -146,29 +146,20 @@ Tại Tab `Monitor`, `Overview` > `All Services`, click vào biểu tượng `Re
 
 ![image](https://user-images.githubusercontent.com/97047640/177464144-b89a709d-cd80-4cce-b1e8-9ccf4de96e3f.png)
 
-Hoặc đợi một vài phút, tất cả các dịch vụ đã được check và hiển thị thông tin lên Web UI
+Sau khi tạo host
 
-<img src="../images/10.host8.png" />
+![image](https://user-images.githubusercontent.com/62273292/165695741-9abdae60-5f46-4f55-ad75-d9b39e04c1fb.png)
 
-#### Lưu ý khi add host
+Lưu lại nhật kỹ mỗi khi update
 
-- Khi thêm host trên Dashboard nếu gặp trường hợp không active được dịch vụ Check_MK_Discovery như sau:
-Không active được dịch vụ `Check_MK_Discovery`
+![image](https://user-images.githubusercontent.com/62273292/165698599-5bae5817-5cb3-46d2-afba-35b7f818b37f.png)
 
-<img src="../images/ser-missing0.png">
+![image](https://user-images.githubusercontent.com/62273292/165698669-4e7d34ff-b4b9-438a-bd35-245fec32de5a.png)
 
-##### Ta phải làm như sau:
+Biết được có bao nhiêu hosts và services
 
-- **Bước 1**: Trên WATO chọn `host` sau đó chọn host vừa không active được dịch vụ `Check_MK_Discovery`:
+![image](https://user-images.githubusercontent.com/62273292/165699881-b60afc28-44b5-45d6-b64b-cbe996ad613a.png)
 
-<img src="../images/ser-missing1.png">
+Kiểm tra CPU hoạt động
 
-- **Bước 2**: Chọn mục `Service`
-
-<img src="../images/ser-missing2.png">
-
-- **Bước 3**: Active các dịch vụ missing:
-
-<img src="../images/ser-missing3.png">
-
-Sau đó kiểm tra trong mục Service
+![image](https://user-images.githubusercontent.com/62273292/165700203-9ebcf26c-4cda-4b62-8a43-f12062407674.png)
