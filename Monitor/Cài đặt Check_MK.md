@@ -15,11 +15,7 @@
 
 #### Mô hình triển khai
 
-<img src="../images/omd-topo.png" width="80%" />
-
-#### IP Planning
-
-<img src="../images/ip-planning-c7.png" width="80%" />
+![image](https://user-images.githubusercontent.com/97047640/177449501-c18b3812-2778-4dde-a448-37bd3a9e5e68.png)>
 
 <a name="2"></a>
 ### 2. Cài đặt trên Server
