@@ -1,6 +1,6 @@
 # Cài đặt CSF Firewall trên CentOS 7
 
-1. Bước 1: Dừng và vô hiệu hóa tường lửa.
+Bước 1: Dừng và vô hiệu hóa tường lửa.
 
 ```
 systemctl disable firewalld 
@@ -10,7 +10,7 @@ systemctl stop firewalld
 ![image](https://user-images.githubusercontent.com/97047640/177726119-57168479-d0fc-4463-9276-68a6636709bd.png)
 
 
-2. Bước 2: Cài đặt iptables.
+Bước 2: Cài đặt iptables.
 
 `yum -y install iptables-services`
 
@@ -41,7 +41,7 @@ systemctl enable ip6tables
 
 ![image](https://user-images.githubusercontent.com/97047640/177726629-3ef08721-2131-4e8b-a892-c8c7e21cbb78.png)
 
-3. Bước 3: Cài đặt các thư viện cần thiết.
+Bước 3: Cài đặt các thư viện cần thiết.
 
 Tiếp theo các bạn tiến hành cài đặt các thư viện cần thiết cho việc hoạt động của CSF
 
@@ -50,7 +50,7 @@ Tiếp theo các bạn tiến hành cài đặt các thư viện cần thiết c
 ![image](https://user-images.githubusercontent.com/97047640/177726839-c9728093-dd90-452c-8364-19d81b169734.png)
 
 
-4. Bước 4:  cài đặt CSF.
+Bước 4:  cài đặt CSF.
 
 Sau khi đã cài đặt đầy đủ các thư viện chúng ta tiến hành cài đặt CSF.
 
@@ -98,7 +98,7 @@ Testing iptable_nat/ipt_DNAT...OK
 RESULT: csf should function on this server
 ```
 
-5. Bước 5: Cấu hình CSF
+Bước 5: Cấu hình CSF
 
 Cấu hình CSF bằng cách chỉnh sửa file /etc/csf/csf.confcsf.conf.
 
@@ -126,7 +126,7 @@ systemctl start csf
 ![image](https://user-images.githubusercontent.com/97047640/177727689-f0b39ed1-d2dc-4972-a2c5-093a24bcc788.png)
 
 
-6. Mở Port SMTP
+Bước 6: Mở Port SMTP
 Theo mặc định CSF sẽ không mở TCP_OUT với port 465, điều này có thể sẽ khiến bạn gặp lỗi khi sử dụng SMTP mail. Để mở port 465 các bạn mở file /etc/csf/csf.conf và tìm dòng sau
 
 `TCP_OUT = "20,21,22,25,53,80,110,113,443,587,993,995"`
