@@ -39,7 +39,7 @@ Permanent: không áp dụng cho hệ thống đang chạy, cần reload mới c
 
 # Cài đặt tường lửa FirewallD
 
-FirewallD được cài đặt mặc định
+FirewallD được cài đặt mặc định. Nếu chưa có chúng ta sẽ tiến hành cài đặt bằng lệnh
 
 `yum install firewalld`
 
