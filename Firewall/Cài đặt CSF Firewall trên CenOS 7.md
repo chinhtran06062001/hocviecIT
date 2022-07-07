@@ -7,14 +7,14 @@ systemctl disable firewalld
 systemctl stop firewalld
 ```
 
-![image](https://user-images.githubusercontent.com/62273292/166622653-2a0ecff4-53b9-4927-a7b1-9e382a22119c.png)
+![image](https://user-images.githubusercontent.com/97047640/177726119-57168479-d0fc-4463-9276-68a6636709bd.png)
 
 
 2. Bước 2: Cài đặt iptables.
 
 `yum -y install iptables-services`
 
-![image](https://user-images.githubusercontent.com/62273292/166622742-6ce1d74b-a42c-4493-9a77-73efc0b7e350.png)
+![image](https://user-images.githubusercontent.com/97047640/177726324-b1d71926-4fcb-4e0e-8733-b080b6dbccc2.png)
 
 **Tạo tập tin cần thiết bởi iptables.**
 
@@ -23,7 +23,7 @@ touch /etc/sysconfig/iptables
 touch /etc/sysconfig/iptables6
 ```
 
-![image](https://user-images.githubusercontent.com/62273292/166622803-986e78ca-672b-4b8c-b462-737f10cbf2c9.png)
+![image](https://user-images.githubusercontent.com/97047640/177726392-48370a8c-b0eb-4a68-85e2-89d303bf4419.png)
 
 Khởi động iptables.
 
@@ -32,9 +32,6 @@ systemctl start iptables
 systemctl start ip6tables
 ```
 
-![image](https://user-images.githubusercontent.com/62273292/166623068-25d9925c-774f-4a7c-998e-0da6461745bd.png)
-
-
 Kích hoạt iptables mỗi khi khởi động lại VPS/Server.
 
 ```
@@ -42,8 +39,7 @@ systemctl enable iptables
 systemctl enable ip6tables
 ```
 
-![image](https://user-images.githubusercontent.com/62273292/166623102-d380611c-d6e2-490e-b957-9141191341e7.png)
-
+![image](https://user-images.githubusercontent.com/97047640/177726629-3ef08721-2131-4e8b-a892-c8c7e21cbb78.png)
 
 3. Bước 3: Cài đặt các thư viện cần thiết.
 
@@ -51,7 +47,7 @@ Tiếp theo các bạn tiến hành cài đặt các thư viện cần thiết c
 
 `yum -y install wget perl unzip net-tools perl-libwww-perl perl-LWP-Protocol-https perl-GDGraph`
 
-![image](https://user-images.githubusercontent.com/62273292/166623155-84b7964a-7c70-446f-91f7-76af86aeddf3.png)
+![image](https://user-images.githubusercontent.com/97047640/177726839-c9728093-dd90-452c-8364-19d81b169734.png)
 
 
 4. Bước 4:  cài đặt CSF.
@@ -66,10 +62,7 @@ cd csf
 sh install.sh
 ```
 
-![image](https://user-images.githubusercontent.com/62273292/166623529-ac957022-2053-4bdc-a8f6-8708043d61ad.png)
-
-![image](https://user-images.githubusercontent.com/62273292/166623613-4ce4a77d-5049-4d57-8e1c-e6b32bab4794.png)
-
+![image](https://user-images.githubusercontent.com/97047640/177727071-840dbb1c-54ab-42cd-9acb-94df675de20e.png)
 
 Loại bỏ các tập tin cài đặt.
 
@@ -77,8 +70,7 @@ Loại bỏ các tập tin cài đặt.
 cd /
 rm -rf /opt/csf /opt/csf.tgz
 ```
-![image](https://user-images.githubusercontent.com/62273292/166623723-a985c1da-6413-4160-b8dd-01ce3a0995f9.png)
-
+![image](https://user-images.githubusercontent.com/97047640/177727257-4a45ca8a-54fd-409f-98b5-6be930fa6b03.png)
 
 Bây giờ chúng ta sẽ kiểm tra xem CSF có thực sự hoạt động trên máy chủ không.
 ```
@@ -86,7 +78,7 @@ cd /usr/local/csf/bin/
 perl csftest.pl
 ```
 
-![image](https://user-images.githubusercontent.com/62273292/166623803-9a1a70a4-d6a2-4fcb-b3d2-422f852e4e55.png)
+![image](https://user-images.githubusercontent.com/97047640/177727449-863cb47a-8d12-42b7-9159-cf9ef47f0ff9.png)
 
 CSF sẽ hoạt động mà không gặp sự cố nào trên máy chủ của bạn.
 
@@ -127,14 +119,11 @@ systemctl enable lfd
 systemctl start csf
 ```
 
-![image](https://user-images.githubusercontent.com/62273292/166624865-70bb2107-0df6-4d33-a2a9-b631e89398fb.png)
-
-
 Để kiểm tra xem csf đã hoạt động hay chưa các bạn có thể sử dụng lệnh dưới đây
 
 `systemctl status csf`
 
-![image](https://user-images.githubusercontent.com/62273292/166625278-567be6c0-4ae9-47b7-b3bc-83b7f6f7da70.png)
+![image](https://user-images.githubusercontent.com/97047640/177727689-f0b39ed1-d2dc-4972-a2c5-093a24bcc788.png)
 
 
 6. Mở Port SMTP
@@ -152,13 +141,3 @@ Tiến hành khởi động lại CSF
 csf -x
 csf -e
 ```
-
-
-
-
-
-
-
-
-
-
