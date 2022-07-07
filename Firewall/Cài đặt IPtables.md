@@ -71,20 +71,19 @@ Một target (mục tiêu) sẽ được đưa ra khi có một gói tin đượ
 
 1. Cài đặt Iptables
 
-– Iptables thường được cài đặt mặc định trong hệ thống. Nếu chưa được cài đặt:
-
-CentOS: `# yum install iptables`
-
-CentOS 7 sử dụng FirewallD làm tường lửa mặc định thay vì Iptables. Nếu bạn muốn sử dụng Iptables thực hiện:
+CentOS 7 sử dụng FirewallD làm tường lửa mặc định thay vì Iptables. Nếu bạn muốn sử dụng Iptables thực hiện tắt service firewall:
 
 ```
-# systemctl mask firewalld
-# systemctl enable iptables
-# systemctl enable ip6tables
-# systemctl stop firewalld
-# systemctl start iptables
-# systemctl start ip6tables
+sudo systemctl stop firewalld        
+sudo systemctl disable firewalld     | Không cho phép firewalld tự bật khi reboot server.
+sudo systemctl mask --now firewalld  | Đảm bảo không cho các dịch vụ khác start firewalld.
+sudo yum install iptables-services   | Cài đặt packages iptables-services từ CentOS repositories.
+sudo systemctl start iptables        | Khởi động dịch vụ iptables.
+sudo systemctl enable iptables       | Bật tự động iptables khi boot server, để đảm bảo server luôn luôn có sự bảo vệ từ iptables.
+sudo systemctl status iptables       | Kiểm tra trạng thái iptables đảm bảo nó đang hoạt động.
 ```
+
+![image](https://user-images.githubusercontent.com/97047640/177748508-d3dc0b49-f9dd-4761-98a1-b4b66f7c0e5e.png)
 
 – Kiểm tra Iptables đã được cài đặt trong hệ thống:
 Trên CentOS:
@@ -96,29 +95,17 @@ iptables-1.4.7-16.el6.x86_64
 iptables v1.4.7
 ```
 
-![image](https://user-images.githubusercontent.com/62273292/167108014-64a4a0d7-b067-4a5c-871a-272c5c63d19b.png)
+![image](https://user-images.githubusercontent.com/97047640/177748590-6125be2b-1bb5-4ff7-a9b9-320e0acdfaa1.png)
 
-
-– Check tình trạng của Iptables, cũng như cách bật tắt services trên CentOS
+Sử dụng lệnh sau để hiển thị các rule đang có:
 
 ```
-# service iptables status
-# service iptables start
-# service iptables stop
-# service iptables restart
+sudo iptables -nvL
 ```
 
-![image](https://user-images.githubusercontent.com/62273292/167108182-ae8f818a-f693-42cc-a5de-e1b49ace0bed.png)
-
-![image](https://user-images.githubusercontent.com/62273292/167108330-fe6ac30a-c0a7-414f-b7d0-489247d48e6a.png)
-
-
-– Khởi động Iptables cùng hệ thống
-
-`# chkconfig iptables on`
+![image](https://user-images.githubusercontent.com/97047640/177748848-a6dc1fd9-8dfa-47c2-bb66-354a402f7c9f.png)
 
 2. Các nguyên tắc áp dụng trong Iptables
-
 
 Để bắt đầu, bạn cần xác định các services muốn đóng/mở và các port tương ứng.
 
@@ -142,37 +129,61 @@ Mình sẽ hướng dẫn các bạn xem và hiểu các quy tắc của iptable
 
 
 Chain INPUT (policy ACCEPT)
+
 target     prot opt source               destination
+
 ACCEPT     all  --  anywhere             anywhere            state RELATED,ESTABLISHED
+
 ACCEPT     icmp --  anywhere             anywhere
+
 ACCEPT     all  --  anywhere             anywhere
+
 ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:ssh
+
 REJECT     all  --  anywhere             anywhere            reject-with icmp-host-prohibited
+
 ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:http
+
 ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:https
+
 ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:smtp
+
 ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:urd
+
 ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:pop3
+
 ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:pop3s
+
 ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:imap
+
 ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:imaps
+
 Chain FORWARD (policy ACCEPT)
+
 target     prot opt source               destination
+
 REJECT     all  --  anywhere             anywhere            reject-with icmp-host-prohibited
 
 Chain OUTPUT (policy ACCEPT)
+
 target     prot opt source               destination
 
-![image](https://user-images.githubusercontent.com/62273292/167108635-831c0a01-5b0a-450f-bfa1-d977bd4a3170.png)
+![image](https://user-images.githubusercontent.com/97047640/177750021-e2a85fee-e374-4986-a43d-fa1235f10c8c.png)
 
 
 ### Cột 1: TARGET hành động sẽ được áp dụng cho mỗi quy tắc
 
 **Accept:** gói dữ liệu được chuyển tiếp để xử lý tại ứng dụng cuối hoặc hệ điều hành
 
+![image](https://user-images.githubusercontent.com/97047640/177750549-9cb1567a-4a7c-4f57-91c2-4d2867da5e84.png)
+
 **Drop:** gói dữ liệu bị chặn, loại bỏ
 
+![image](https://user-images.githubusercontent.com/97047640/177750633-0a8c9961-3cdd-47a6-87a0-d1501de5170e.png)
+
 **Reject:** gói dữ liệu bị chặn, loại bỏ đồng thời gửi một thông báo lỗi tới người gửi
+
+![image](https://user-images.githubusercontent.com/97047640/177750683-e02b461c-2647-468c-81d7-8a98165c6c6b.png)
 
 #### Cột 2: PROT (protocol – giao thức) quy định các giao thức sẽ được áp dụng để thực thi quy tắc, bao gồm all, TCP hay UDP. Các ứng dụng SSH, FTP, sFTP… đều sử dụng giao thức TCP.
 
@@ -196,7 +207,7 @@ Hoặc ta cùng xem một ví dụ sau :
 
 `iptables -A INPUT -s 0/0 -i ens33 -d 192.168.176.154 -p TCP -j ACCEPT`
 
-![image](https://user-images.githubusercontent.com/62273292/167113491-83f80cf0-220c-4ff2-b638-314fcd95cbdc.png)
+![image](https://user-images.githubusercontent.com/97047640/177750189-8e3d93a2-5cec-4b72-8bc8-07a2dbad5f3a.png)
 
 Với ý nghĩa : IPtables được cấu hình cho phép “firewall” chấp nhận các gói dữ liệu TCP, đến từ card mạng eth0, có bất kỳ địa chỉ IP nguồn đi đến địa chỉ 192.168.1.1 – là địa chỉ IP của firewall. 0/0 nghĩa là bất kỳ địa chỉ IP nào.
 
@@ -204,8 +215,6 @@ Với ý nghĩa : IPtables được cấu hình cho phép “firewall” chấp 
 Để mở port trong Iptables, bạn cần chèn chuỗi ACCEPT PORT. Cấu trúc lệnh để mở port xxx như sau:
 
 `# iptables -A INPUT -p tcp -m tcp --dport xxx -j ACCEPT`
-
-
 
 A tức Append – chèn vào chuỗi INPUT (chèn xuống cuối)
 
@@ -349,14 +358,12 @@ iptables: Saving firewall rules to /etc/sysconfig/iptables:[ OK ]
 
 **Thêm, sữa và xóa chain**
 
-![image](https://user-images.githubusercontent.com/62273292/167234152-343d05c1-58a4-4882-9aca-d69fd551edb7.png)
-
+![image](https://user-images.githubusercontent.com/97047640/177751390-9ba2c60b-43e3-4143-8f0f-b903987cdaab.png)
  
 – Chuyển hướng packet đến 1 chain được khởi tạo. Ví dụ dưới.
 
 `# iptables -A INPUT -p icmp -j new_chain`
 
-![image](https://user-images.githubusercontent.com/62273292/167234252-a12899c4-cb5b-4bc0-b33d-a65b22c9cb40.png)
 
 2. Liệt kê rule iptables
 
@@ -364,34 +371,29 @@ iptables: Saving firewall rules to /etc/sysconfig/iptables:[ OK ]
 
 `# iptables -L`
  
- ![image](https://user-images.githubusercontent.com/62273292/167234387-da84bb40-6c68-4364-b000-8ecc28f07649.png)
-
 – Liệt kê, kèm theo thông tin bộ đếm packet.
 
 `# iptables -L -v`
  
- ![image](https://user-images.githubusercontent.com/62273292/167234402-037b15b0-dd78-4505-bb4c-c2650413b428.png)
+![image](https://user-images.githubusercontent.com/97047640/177751780-2745aa8c-eb3b-483b-bb3d-08daac0bf8c9.png)
 
 – Liệt kê thông tin rules-chain trong table cụ thể như NAT.
 
 `# iptables -L -t nat`
 
-![image](https://user-images.githubusercontent.com/62273292/167234693-4c8147c3-27f2-44af-b6fe-230b74ed80a4.png)
+![image](https://user-images.githubusercontent.com/97047640/177751895-5721e2ce-fb6c-492d-837f-778cfd42ec51.png)
 
- 
 – Liệt kê các rules với số thứ tự từng dòng rule của từng CHAIN. Mặc định vẫn là table ‘filter‘, nếu không chỉ định rõ table.
 
 `# iptables -L -n --line-numbers`
  
- ![image](https://user-images.githubusercontent.com/62273292/167235274-921db26e-f5dc-468b-8f60-027f824944f1.png)
+![image](https://user-images.githubusercontent.com/97047640/177751990-17a4aa4a-5587-4582-988e-b08c45139339.png)
  
 – Liệt kê các rule cụ thể của chain cụ thể như INPUT với số dòng thứ tự.
 
 `# iptables -L INPUT -n --line-numbers`
 
-
-![image](https://user-images.githubusercontent.com/62273292/167235320-059af21d-e563-48b2-b003-c94191ec263d.png)
-
+![image](https://user-images.githubusercontent.com/97047640/177752076-6732a9c4-4f81-4698-8dde-1819e3801a6f.png)
 
 3. Quản lý rule trong chain
 
@@ -416,10 +418,6 @@ iptables: Saving firewall rules to /etc/sysconfig/iptables:[ OK ]
 Xóa hết các ruler trong chain và toàn bộ chain 
 
 `iptables -F`
-
-![image](https://user-images.githubusercontent.com/62273292/167237234-79b14713-2053-4b23-a5f2-2dfa2e9b45af.png)
-
-
 
 4. Thay đổi cấu hình rule mặc định cuối cùng
 
