@@ -14,19 +14,21 @@ Trong quá trình sử dụng, bạn có thể chọn Zone mặc định, thiế
 
 Các Zone được xác định trước theo mức độ tin cậy, từ thấp đến cao như sau:
 
-Drop: Mức tin cậy thấp nhất – toàn bộ các kết nối đến sẽ bị từ chối mà không phản hồi, chỉ cho phép duy nhất kết nối đi ra.
-Block: Gần giống với Drop nhưng các kết nối đến bị từ chối và phản hồi bằng tin nhắn từ icmp-host-prohibited (hoặc icmp6-adm-prohibited).
-Public: Đại diện cho mạng công cộng, không đáng tin cậy. Các máy tính/Services khác không được tin tưởng trong hệ thống nhưng vẫn cho phép các kết nối đến trên cơ sở chọn từng trường hợp cụ thể.
-External: Hệ thống mạng bên ngoài trong trường hợp bạn sử dụng tường lửa làm Gateway, được cấu hình giả lập NAT để giữ bảo mật mạng nội bộ mà vẫn có thể truy cập.
-Internal: Được sử dụng cho phần nội bộ của Gateway. Các máy tính/Services thuộc Zone này thì khá đáng tin cậy.
-Dmz: sử dụng cho các máy tính/service trong khu vực DMZ(Demilitarized) – cách ly không cho phép truy cập vào phần còn lại của hệ thống mạng, chỉ cho phép một số kết nối đến nhất định.
-Work: sử dụng trong công việc, tin tưởng hầu hết các máy tính và một vài services được cho phép hoạt động.
-Home: môi trường gia đình – tin tưởng hầu hết các máy tính khác và thêm một vài services được cho phép hoạt động.
-Trusted: đáng tin cậy nhất – tin tưởng toàn bộ thiết bị trong hệ thống.
+- Drop: Mức tin cậy thấp nhất – toàn bộ các kết nối đến sẽ bị từ chối mà không phản hồi, chỉ cho phép duy nhất kết nối đi ra.
+- Block: Gần giống với Drop nhưng các kết nối đến bị từ chối và phản hồi bằng tin nhắn từ icmp-host-prohibited (hoặc icmp6-adm-prohibited).
+- Public: Đại diện cho mạng công cộng, không đáng tin cậy. Các máy tính/Services khác không được tin tưởng trong hệ thống nhưng vẫn cho phép các kết nối đến trên cơ sở chọn từng trường hợp cụ thể.
+- External: Hệ thống mạng bên ngoài trong trường hợp bạn sử dụng tường lửa làm Gateway, được cấu hình giả lập NAT để giữ bảo mật mạng nội bộ mà vẫn có thể truy cập.
+- Internal: Được sử dụng cho phần nội bộ của Gateway. Các máy tính/Services thuộc Zone này thì khá đáng tin cậy.
+- Dmz: sử dụng cho các máy tính/service trong khu vực DMZ(Demilitarized) – cách ly không cho phép truy cập vào phần còn lại của hệ thống mạng, chỉ cho phép một số kết nối đến nhất định.
+- Work: sử dụng trong công việc, tin tưởng hầu hết các máy tính và một vài services được cho phép hoạt động.
+- Home: môi trường gia đình – tin tưởng hầu hết các máy tính khác và thêm một vài services được cho phép hoạt động.
+- Trusted: đáng tin cậy nhất – tin tưởng toàn bộ thiết bị trong hệ thống.
+
 Trong FirewallD, các quy tắc được cấu hình thời gian hiệu lực Runtime hoặc Permanent.
 
-Runtime (mặc định): Có hiệu quả ngay lập tức, mất hiệu lực khi Reboot lại hệ thống.
-Permanent: Không thể sử dụng cho hệ thống đang chạy. Bạn cần Reload mới có hiệu lực, tác dụng vĩnh viễn cả khi Reboot hệ thống.
+- Runtime (mặc định): Có hiệu quả ngay lập tức, mất hiệu lực khi Reboot lại hệ thống.
+- Permanent: Không thể sử dụng cho hệ thống đang chạy. Bạn cần Reload mới có hiệu lực, tác dụng vĩnh viễn cả khi Reboot hệ thống.
+
 Việc Restart/Reload sẽ hủy bộ các thiết lập Runtime. Đồng thời áp dụng thiết lập Permanent mà không làm phá vỡ các kết nối và Session hiện tại. Điều này giúp kiểm tra hoạt động của các quy tắc trên tường lửa và dễ dàng khởi động lại nếu có vấn đề xảy ra.
 
 ## Hiệu lực của các quy tắc Runtime/Permanent
