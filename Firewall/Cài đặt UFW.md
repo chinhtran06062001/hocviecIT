@@ -1,5 +1,5 @@
 Bước 1: SSH vào hệ thống Linux
-Để thực hiện cài đặt UFW bạn cần SSH vào hệ thống. Nếu bạn chưa biết cách SSH hãy tham khảo tài liệu sau.
+Để thực hiện cài đặt UFW bạn cần SSH vào hệ thống.
 
 Hướng dẫn đăng nhập vào VPS Linux với giao thức SSH.
 Bước 2: Cập nhật hệ thống kiểm tra cài đặt
