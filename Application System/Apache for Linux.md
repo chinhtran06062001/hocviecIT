@@ -112,7 +112,7 @@ Trong ví dụ này sẽ tạo website tranchinh.com với vhost tương ứng l
 
 Dán nội dung sau vào
 
-```
+```sh
 <VirtualHost *:80>
 ServerAdmin chinhtran06062001@gmail.com
 ServerName chinhtran.vn
