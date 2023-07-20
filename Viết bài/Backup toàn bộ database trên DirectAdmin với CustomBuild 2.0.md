@@ -1,10 +1,10 @@
 # 1. Tổng quan
 
-Trong bài này mình sẽ hướng dẫn hạ cấp MySQL trên DirectAdmin một các đơn giản và nhanh chóng nhất. Tuy nhiên việc hạ cấp là một việc không nên làm trừ khi bạn bắt buộc phải làm như vậy.
+Trong một vài trường hợp nhất định bạn sẽ muốn backup toàn bộ database trên DirectAdmin, trong đó có thể kể đến như là chuẩn bị nâng cấp/hạ cấp phiên bản MySQL/MariaDB, sao lưu định kỳ và một vài trường hợp khác nữa.
 
-Mình có thấy rất nhiều bài viết hướng dẫn hạ cấp ở trên Google, tuy nhiên đa số đều không phải hướng dẫn chính thống từ DirectAdmin và một số nhiều trong đó không hoạt động được. Và bài này mình sẽ dựa theo các bài viết chính thống của DirecAdmin, đường dẫn bài viết này mình sẽ để ở cuối bài viết.
+Và trong bài hôm nay mình sẽ hướng dẫ các bạn có thể backup toàn bộ database trên DirectAdmin với CustomBuild 2.0 chỉ với một vài thao tác đơn giản.
 
-Lưu ý quan trọng: Trong trường hợp bài viết này là bạn đã sao lưu toàn bộ database của mình rồi hoặc bạn không còn gì để mất nữa.
+Lưu ý: Bắt buộc các hệ quản trị cơ sở dữ liệu MySQL/MariaDB vẫn còn hoạt động bình thường.
 
 # 2. Hướng dẫn backup toàn bộ database trên DirectAdmin với CustomBuild 2.0
 
