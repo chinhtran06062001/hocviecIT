@@ -25,7 +25,9 @@ Trong trường hợp phiên bản CustomBuild của bạn thấp hơn 2.0 thì 
 Sau khi kiểm tra đã có CustomBuild 2.0 chúng ta thực hiện một số lệnh sau:
 
 ```sh
-Sau khi kiểm tra đã có CustomBuild 2.0 chúng ta thực hiện một số lệnh sau:
+cd /usr/local/directadmin/custombuild
+./build set mysql_backup yes
+./build mysql_backup
 ```
 
 Giải thích các lệnh trên:
