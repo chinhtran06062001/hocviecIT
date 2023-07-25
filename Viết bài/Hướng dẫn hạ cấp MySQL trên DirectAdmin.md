@@ -24,9 +24,9 @@ Sau khi đã SSH thành công chúng ta tiếp tục với bước 2 để bắt
 mysqld -V
 ```
 
-Hình dưới đây là kết quả của mình, với phiên bản đang cài hiện tại là 15.1 .
+Hình dưới đây là kết quả của mình, với phiên bản đang cài hiện tại là 8.0.20.
 
-![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/738b699b-8fcc-4954-832b-d762bfb5d7e3)
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/f4db72f1-6d5a-4f42-9dfb-b8e09b349747)
 
 Vậy là xong bước kiểm tra phiên bản MySQL đang sử dụng hiện tại. Chúng ta tiếp tục với bước 3 để hạ cấp MySQL trên DirectAdmin.
 
