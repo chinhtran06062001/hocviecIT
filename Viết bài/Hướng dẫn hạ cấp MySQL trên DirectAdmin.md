@@ -24,7 +24,9 @@ Sau khi đã SSH thành công chúng ta tiếp tục với bước 2 để bắt
 mysqld -V
 ```
 
-Hình dưới đây là kết quả của mình, với phiên bản đang cài hiện tại là 8.0.20.
+Hình dưới đây là kết quả của mình, với phiên bản đang cài hiện tại là 15.1 .
+
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/738b699b-8fcc-4954-832b-d762bfb5d7e3)
 
 Vậy là xong bước kiểm tra phiên bản MySQL đang sử dụng hiện tại. Chúng ta tiếp tục với bước 3 để hạ cấp MySQL trên DirectAdmin.
 
@@ -64,26 +66,39 @@ Lệnh 9: Bắt đầu quá trình cài lại MySQL.
 
 Dưới đây là một số hình ảnh trong quá trình hạ cấp của mình:
 
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/7bf8a427-001a-4f71-8ca4-72fe9601f58e)
+
 Lệnh 1: Tắt tự động khởi động MySQL theo hệ điều hành.
 
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/f723ecd6-dc2d-4f30-a379-9ecf27f0bfb2)
+
 Lệnh 2: Tắt dịch vụ MySQL.
+
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/19493424-131e-422e-a82e-749bb16516ee)
+
 Lệnh 3: Sao lưu thư mục /var/lib/mysql thành thư mục /var/lib/mysql.old.
-Screen Shot 2020 07 24 at 1.47.58 PM
+
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/7ec5bcc3-c076-4ba4-bb02-19b49e6e453c)
 
 Lệnh 4: Di chuyển vào thư mục custombuild.
-Screen Shot 2020 07 24 at 1.50.43 PM
 
-Lệnh 5: Điều chỉnh cấu hình phiên bản MySQL lên bản 5.6 (Bạn có thể thay đổi thành phiên bản khác nếu muốn).
-Screen Shot 2020 07 24 at 1.51.43 PM
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/66c3a203-a34a-4354-b910-cb9871303303)
+
+Lệnh 5: Điều chỉnh cấu hình phiên bản MySQL thành bản 5.6 (Bạn có thể thay đổi thành phiên bản khác nếu muốn).
+
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/aaed9c90-ad9f-448d-b295-4aea94a19ea5)
 
 Lệnh 6: Sử dụng hệ quản trị cơ sở dữ liệu là MySQL.
-Screen Shot 2020 07 24 at 1.52.25 PM
+
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/99e9b16c-677e-4505-a4d6-27db1b849a02)
 
 Lệnh 7: Tắt sao lưu database tự động vì hiện tại MySQL đã không còn hoạt động.
-Screen Shot 2020 07 24 at 1.56.04 PM
+
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/26136c74-88df-4042-843e-5657074ffa44)
 
 Lệnh 8: Cập nhật lại custombuild script.
-Screen Shot 2020 07 24 at 1.57.42 PM
+
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/2b32c36e-c2b1-4b78-9475-e2a526384f7d)
 
 Lệnh 9: Bắt đầu quá trình cài lại MySQL.
 
