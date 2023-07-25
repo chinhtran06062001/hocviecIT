@@ -66,39 +66,39 @@ Lệnh 9: Bắt đầu quá trình cài lại MySQL.
 
 Dưới đây là một số hình ảnh trong quá trình hạ cấp của mình:
 
-![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/7bf8a427-001a-4f71-8ca4-72fe9601f58e)
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/92da3fc7-0c20-4ab1-88d6-0d2bf6c45db5)
 
 Lệnh 1: Tắt tự động khởi động MySQL theo hệ điều hành.
 
-![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/f723ecd6-dc2d-4f30-a379-9ecf27f0bfb2)
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/7db58099-3615-4f78-92c9-832bc68b9acd)
 
 Lệnh 2: Tắt dịch vụ MySQL.
 
-![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/19493424-131e-422e-a82e-749bb16516ee)
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/2c859cf8-1621-40c8-91a3-c0d1b63ad5fe)
 
 Lệnh 3: Sao lưu thư mục /var/lib/mysql thành thư mục /var/lib/mysql.old.
 
-![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/7ec5bcc3-c076-4ba4-bb02-19b49e6e453c)
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/6583ef82-b90a-471b-9ac3-dcef4791c17d)
 
 Lệnh 4: Di chuyển vào thư mục custombuild.
 
-![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/66c3a203-a34a-4354-b910-cb9871303303)
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/e4c6a06d-48cd-4e5f-99e7-1bd17c68abdb)
 
 Lệnh 5: Điều chỉnh cấu hình phiên bản MySQL thành bản 5.6 (Bạn có thể thay đổi thành phiên bản khác nếu muốn).
 
-![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/aaed9c90-ad9f-448d-b295-4aea94a19ea5)
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/d83f0e30-36c2-4c06-a4d0-9c56f31fc1e6)
 
 Lệnh 6: Sử dụng hệ quản trị cơ sở dữ liệu là MySQL.
 
-![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/99e9b16c-677e-4505-a4d6-27db1b849a02)
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/ece5caf1-683c-480f-96c3-07ef56edeacf)
 
 Lệnh 7: Tắt sao lưu database tự động vì hiện tại MySQL đã không còn hoạt động.
 
-![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/26136c74-88df-4042-843e-5657074ffa44)
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/7d225a7b-aa87-430e-b1ce-c4c30502c832)
 
 Lệnh 8: Cập nhật lại custombuild script.
 
-![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/2b32c36e-c2b1-4b78-9475-e2a526384f7d)
+![image](https://github.com/chinhtran06062001/hocviecIT/assets/97047640/43cd9276-223e-4b58-b22a-cf314b6de347)
 
 Lệnh 9: Bắt đầu quá trình cài lại MySQL.
 
